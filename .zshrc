@@ -1,1 +1,0 @@
-/home/momo2ro/.zshrc
