@@ -1,0 +1,2 @@
+/usr/bin/ld: Warning: /usr/lib/gcc/arm-linux-gnueabi/4.3.3/libgcc_s.so: Unknown EABI object attribute 44
+/usr/bin/ld: Warning: /usr/lib/gcc/arm-linux-gnueabi/4.3.3/libgcc_s.so: Unknown EABI object attribute 44
