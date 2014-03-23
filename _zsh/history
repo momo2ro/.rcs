@@ -2007,3 +2007,5 @@ cd chroot/sid/home/momo2ro/tmplibc/eglibc-2.18/debian
 : 1395470032:0;ln -s _vim ~/.vim
 : 1395470041:0;mv ~/.zsh _zsh
 : 1395537888:0;git add .
+: 1395537892:0;git commit
+: 1395538041:0;git add .
