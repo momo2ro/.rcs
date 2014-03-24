@@ -1,0 +1,11 @@
+#!/bin/sh
+
+FILES=`echo "$@\n" |sed -e s/.*\/\?\.\?\(.*\)\/\?/\1\/g`
+
+for FILE in $FILES; do
+	if [ -L $HOME/.$FILE ];then
+		FILES=${FILES#$FILE}
+	fi
+done
+
+echo "$FILES\n" |xargs -i -t sh "mv $HOME/.{} $HOME/dotfiles/_{}; ln -s $HOME/dotfiles/_{} $HOME/.{}
