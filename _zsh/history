@@ -2011,3 +2011,40 @@ cd chroot/sid/home/momo2ro/tmplibc/eglibc-2.18/debian
 : 1395538041:0;git add .
 : 1395538042:0;git commit
 : 1395538056:0;git add .
+: 1395538057:0;git commit
+: 1395538123:0;git remote add origin git@github.com:momo2ro/dotfiles
+: 1395538131:0;git push
+: 1395538139:0;git push origin master
+: 1395538162:0;git remote rm
+: 1395538165:0;git remote rm origin
+: 1395538191:0;git remote add origin igt@github.com:momo2ro/dotfiles
+: 1395538196:0;git push origin master
+: 1395538236:0;sudo pacman -S xmobar
+: 1395538254:0;cd
+: 1395538255:0;ls
+: 1395538261:0;ll
+: 1395538311:0;git push origin master
+: 1395538529:0;git remote rm origin
+: 1395538560:0;git remote add origin git@github.com:momo2ro/dotfiles
+: 1395538562:0;git push origin master
+: 1395539410:0;xmodmap
+: 1395539416:0;_xmodmap
+: 1395539427:0;sudo pacman -S xmodmap
+: 1395539513:0;xmonad --recompile
+: 1395539638:0;sudo pacman -S haskellplatform
+: 1395539642:0;sudo pacman -S haskell
+: 1395539648:0;yaourt haskell
+: 1395539660:0;yaourt haskell-platform
+: 1395539736:0;sudo pacman -S xmonad-contrib
+: 1395539763:0;xmonad --recompile
+: 1395539789:0;cd
+: 1395539795:0;vim .xmonad/xmonad.hs
+: 1395539901:0;xmodmap
+: 1395539926:0;sudo pacman -S xorg-xmodmap
+: 1395539941:0;xmodmap | grep Num
+: 1395539952:0;xmodmap
+: 1395539962:0;xkb
+: 1395539971:0;xmodmap
+: 1395539991:0;sudo pacman -S uim
+: 1395540015:0;xmonad --recompile
+: 1395540030:0;vim .xmonad/xmonad.hs
