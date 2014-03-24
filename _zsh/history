@@ -1,8 +1,0 @@
-: 1395627992:0;./autolink.sh
-: 1395628000:0;ll _xmonad/
-: 1395628012:0;ll _zsh
-: 1395628329:0;mv ~/.Xdefaults .
-: 1395628381:0;mv .Xdefaults _Xdefaults
-: 1395628405:0;ln -s ./_Xdefaults ~/.Xdefaults
-: 1395628414:0;vim newlink
-: 1395630850:0;git add .
