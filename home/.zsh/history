@@ -1,0 +1,535 @@
+: 1395627992:0;./autolink.sh
+: 1395628000:0;ll _xmonad/
+: 1395628012:0;ll _zsh
+: 1395628329:0;mv ~/.Xdefaults .
+: 1395628381:0;mv .Xdefaults _Xdefaults
+: 1395628405:0;ln -s ./_Xdefaults ~/.Xdefaults
+: 1395628414:0;vim newlink
+: 1395630850:0;git add .
+: 1395642520:0;exit
+: 1395678488:0;pacman -S ibus
+: 1395678503:0;yaourt ibus-skk
+: 1395678697:0;yaourt mikutter
+: 1395678760:0;sudoedit /etc/sudoers
+: 1395678782:0;sudoedit /etc/yaourtrc
+: 1395678898:0;ibus-setup
+: 1395679056:0;sudoedit /etc/X11/xorg.conf
+: 1395679104:0;loadkeys jp106
+: 1395679124:0;xkb
+: 1395679161:0;sudoedit /etc/slim.conf
+: 1395679212:0;sudo reboot
+: 1395679270:0;ibus-setup
+: 1395679692:0;mkdir -p .config/libskk/rules
+: 1395679701:0;cd .config/libskk/rules
+: 1395679724:0;cp /usr/share/libskk/rules/default/ ./user
+: 1395679728:0;ls
+: 1395679758:0;cp /usr/share/libskk/rules/default/* ./user
+: 1395679765:0;cp /usr/share/libskk/rules/default/* .
+: 1395679767:0;ls
+: 1395679786:0;cp -r /usr/share/libskk/rules/default/
+: 1395679791:0;cp --help
+: 1395679830:0;cp -r /usr/share/libskk/rules/default/ .
+: 1395679832:0;ls
+: 1395679836:0;rm metadata.json
+: 1395679849:0;mv default/ user
+: 1395679853:0;cd user/
+: 1395679866:0;vim metadata.json
+: 1395679926:0;cd rom-kana/
+: 1395679927:0;ls
+: 1395679933:0;vim default.json
+: 1395679974:0;cd ..
+: 1395679975:0;ls
+: 1395679978:0;cd keymap/
+: 1395679979:0;ls
+: 1395680015:0;vim default.json
+: 1395680042:0;vim hiragana.json
+: 1395680074:0;ibus-setup
+: 1395680375:0;tmux a
+: 1395680387:0;vim default.json
+: 1395680396:0;ls
+: 1395680401:0;vim latin.json
+: 1395680438:0;vim default.json
+: 1395680449:0;vim hiragana.json
+: 1395680473:0;vim katakana.json
+: 1395680490:0;vim wide-latin.json
+: 1395680509:0;ibus-setup
+: 1395680617:0;uim-pref-gtk
+: 1395680750:0;vim .xinitrc
+: 1395680961:0;sudo reboot
+: 1395681011:0;„ÅÇ„Åü
+: 1395681041:0;uim-pref-gtk
+: 1395681128:0;„ÅÉ≠„Å°„ÅÉ¨„ÅÉ§
+: 1395681261:0;yaourt uim skk
+: 1395681267:0;yaourt uim-skk
+: 1395681272:0;yaourt skk
+: 1395681473:0;sudo pacman -S uim
+: 1395681527:0;s
+: 1395681538:0;ls
+: 1395681618:0;mv .skk-jisyo.lock .skk-jisyo
+: 1395681632:0;mv .skk-uim-jisyo.lock .skk-uim-jisyo
+: 1395681696:0;vim .skk-jisyo
+: 1395681703:0;:q
+: 1395681708:0;uim-pref-gtk
+: 1395682023:0;mv ./Downloads/SKK-JISYO.L.gz .skk-jisyo
+: 1395682029:0;ls
+: 1395682038:0;ls .skk-
+: 1395682040:0;ls .skk-jisyo
+: 1395682084:0;mkdir .skk
+: 1395682094:0;mv Downloads/SKK-JISYO.L.gz .skk/
+: 1395682167:0;gzip -d .skk/SKK-JISYO.L.gz
+: 1395682171:0;ls .skk
+: 1395682246:0;ÈÉÄ≠
+: 1395682261:0;sudo poweroff
+: 1395709725:0;yaourt alsa
+: 1395709927:0;uim-pref-gtk
+: 1395709992:0;alsamixer
+: 1395710092:0;yaourt flash
+: 1395710138:0;sudo pacman -S flashplugin
+: 1395710401:0;amixer sset Master unmute
+: 1395710413:0;alsamixer
+: 1395710592:0;vim ~/.xinitrc
+: 1395710659:0;sudo pacman -S unclutter
+: 1395710713:0;vim ~/.xinitrc
+: 1395710977:0;sudo pacman -S stalonetray
+: 1395710997:0;cp /etc/stalonetrayrc ~/.stalonetrayrc
+: 1395711019:0;vim .stalonetrayrc
+: 1395711426:0;sudo pacman -S dropbox
+: 1395711526:0;vim .xmonad/xmonad.hs
+: 1395711700:0;vim .xinitrc
+: 1395711925:0;vim .xmonad/xmonad.hs
+: 1395711943:0;vim .vimrc
+: 1395711998:0;vim .xmonad/xmonad.hs
+: 1395712234:0;uim-pref-gtk
+: 1395712374:0;vim /etc/X11/xorg.conf.d/50-synaptics.conf
+: 1395712416:0;sudoedit /etc/X11/xorg.conf.d/50-synaptics.conf
+: 1395712619:0;vim .Xmodmap
+: 1395712673:0;xmodmap .Xmodmap [
+: 1395712675:0;xmodmap .Xmodmap
+: 1395712717:0;synclient PalmDetect=1
+: 1395712749:0;sudoedit /etc/X11/xorg.conf.d/50-synaptics.conf
+: 1395712768:0;vim .vimrc
+: 1395712782:0;exit
+: 1395713252:0;ifconfig
+: 1395713351:0;uim-pref-gtk
+: 1395713482:0;exit
+: 1395713486:0;\
+
+: 1395713494:0;homesick help
+: 1395713500:0;homesick commit
+: 1395713517:0;homesick push
+: 1395713685:0;htop
+: 1395713699:0;exit
+: 1395713797:0;startx
+: 1395713812:0;sudoedit /etc/X11/xorg.conf.d/50-synaptics.conf
+: 1395713998:0;startx
+: 1395714215:0;sudo reboot
+: 1395714349:0;vim .xinitrc
+: 1395714396:0;xmodmap ~/.Xmodmap
+: 1395714427:0;vim ~/.Xmodmap
+: 1395714478:0;xmodmap ~/.Xmodmap
+: 1395714492:0;vim ~/.Xmodmap
+: 1395714506:0;xmodmap ~/.Xmodmap
+: 1395714513:0;exit
+: 1395901555:0;ping -c 3 google.com
+: 1395901562:0;dhcpcd enp3s0
+: 1395901567:0;sudo dhcpcd enp3s0
+: 1395901655:0;vim .Xmodmap
+: 1395901670:0;xmodmap .Xmodmap
+: 1395901680:0;vim .Xmodmap
+: 1395901784:0;xmodmap .Xmodmap
+: 1395901804:0;vim .Xmodmap
+: 1395901841:0;exit
+: 1395901943:0;xev
+: 1395901966:0;sudo pacman -S xorg-xev
+: 1395901994:0;xev
+: 1395902174:0;vim .xinitrc
+: 1395902259:0;vim ~/.Xmodmap
+: 1395902305:0;xmodmap ~/.xmodmap
+: 1395902314:0;xmodmap ~/.Xmodmap
+: 1395902340:0;vim ~/.xinitrc
+: 1395902384:0;vim .Xmodmap
+: 1395902408:0;.vim/swap/
+: 1395902410:0;ls
+: 1395902415:0;rm .Xmodmap.swp
+: 1395903465:0;yaourt stepmania
+: 1395903661:0;exit
+: 1395903667:0;alsamixer4
+: 1395903668:0;alsamixer
+: 1395904432:0;tar
+: 1395904516:0;unzip Downloads/Doubles\ Tournament\ Expansion.zip
+: 1395904526:0;pacman -S unzip
+: 1395904534:0;unzip Downloads/Doubles\ Tournament\ Expansion.zip
+: 1395904542:0;ls
+: 1395904608:0;mv Doubles\ Tournament\ Expansion\ R3\ \(All\ Charts\)/ .stepmania-5.0/Songs/
+: 1395908598:0;sudo reboot
+: 1396109754:0;xmodmap ~/.Xmodmap
+: 1396109859:0;xmodmap point = 1 2 3 5 4 6 7 8 9 10 11 12
+: 1396109870:0;xmodmap -e "point = 1 2 3 5 4 6 7 8 9 10 11 12"
+: 1396109879:0;vim .Xmodmap
+: 1396109887:0;vim .xinitrc
+: 1396109912:0;xmodmap -e "pointer = 1 2 3 5 4 6 7 8 9 10 11 12"
+: 1396109964:0;xmodmap -e "pointer = 1 2 3 4 5 6 7 8 9 10 11 12"
+: 1396109975:0;vim .xinitrc
+: 1396141788:0;xmodmap ~/.Xmodmap
+: 1396152104:0;killall firefox
+: 1396158815:0;cd learningc
+: 1396158841:0;mkdir learningc
+: 1396158843:0;cd learningc/
+: 1396161742:0;vim cat.c
+: 1396161757:0;vim .vimr
+: 1396161763:0;cd
+: 1396161767:0;vim .vimrc
+: 1396161784:0;cd learningc/
+: 1396161786:0;vim cat.c
+: 1396162108:0;xmonad --restart
+: 1396162283:0;sudo systemctl disable slim.service
+: 1396162293:0;sudo systemctl enable slim.service
+: 1396162315:0;sudo systemctl disable slim.service
+: 1396162496:0;sudo systemctl enable slim.service
+: 1396163014:0;ls learningc/
+: 1396163021:0;vim learningc/cat.c
+: 1396170459:0;yaourt wine
+: 1396170494:0;pacman -S wine
+: 1396170585:0;pacman -S steam
+: 1396333477:0;find .stepmania-5.0/ -name "Keymap"
+: 1396333485:0;find -name "Keymap"
+: 1396333937:0;stepmania
+: 1396334291:0;rm .stepmania-5.0/Save/Keymaps.ini
+: 1396334667:0;stepmania
+: 1396360390:0;ping -c 3 google.com
+: 1396360403:0;sudo dhcpcd enp3s0
+: 1396360565:0;alsamixer
+: 1396413146:0;sudo systemctl stop slim.service 
+: 1396413158:0;sudo systemctl start slim.service 
+: 1396415360:0;cd learningc/
+: 1396415874:0;vim arg.c
+: 1396423466:0;sudo systemctl stop slim.service 
+: 1396423474:0;sudo poweroff
+: 1396455912:0;vim /etc/udev/rules.d/11-media-by-label-auto-mount.rules
+: 1396456060:0;sudoedit /etc/udev/rules.d/11-media-by-label-auto-mount.rules
+: 1396456175:0;ls /mnt/
+: 1396456220:0;ls /media/
+: 1396456227:0;ls /media/usbhd-sdb1/
+: 1396456237:0;cd /media/usbhd-sdb1/
+: 1396456238:0;ls
+: 1396458467:0;dhcpcd enp3s0
+: 1396458475:0;sudo dhcpcd enp3s0
+: 1396459108:0;xmodmap ~/.Xmodmap
+: 1396460984:0;cd
+: 1396461045:0;ls
+: 1396461055:0;.mikutter/
+: 1396461061:0;mkdir plugin
+: 1396461066:0;plugin/
+: 1396461073:0;git init
+: 1396461077:0;ls
+: 1396461179:0;git clone git@github.com:moguno/mikutter-subparts-image.git
+: 1396461184:0;ls
+: 1396461190:0;cd mikutter-subparts-image/
+: 1396461191:0;ls
+: 1396461294:0;cd .mikutter/plugin/
+: 1396461297:0;rm .git/
+: 1396461301:0;rm -r .git/
+: 1396461312:0;yes | rm -r .git/
+: 1396461323:0;cd mikutter-subparts-image/
+: 1396461336:0;cp openimg/ sub_parts_image/ ..
+: 1396461343:0;..
+: 1396461345:0;ls
+: 1396461351:0;cd mikutter-subparts-image/
+: 1396461391:0;cp openimg/ ..
+: 1396461396:0;cp -r openimg/ ..
+: 1396461404:0;cp -r sub_parts_image/ ..
+: 1396461407:0;..
+: 1396461408:0;ls
+: 1396461425:0;sudo systemctl stop slim.service 
+: 1396461457:0;sudo systemctl start slim.service
+: 1396461483:0;cd
+: 1396461491:0;vim .xmonad/xmonad.hs
+: 1396461804:0;touch .mikutter/plugin/display_requirements.rb
+: 1396462022:0;sudo poweroff
+: 1396503785:0;vim
+: 1396511873:0;find . -name "*recovery.sh"
+: 1396511889:0;find . -name "*recovery.sh*"
+: 1396511900:0;find . -name "*recovery.sh*" -ls
+: 1396511908:0;ls
+: 1396511941:0;tar zxvf ./„É£Ä„Ç¶„É£≥„É£≠„É£º„É£É©/recovery.sh.tar.gz
+: 1396511949:0;vim recovery.sh
+: 1396512220:0;cat /proc/devices
+: 1396512230:0;cat /proc/mounts
+: 1396512264:0;cat /proc/mounts | grep dev
+: 1396512281:0;mount
+: 1396512294:0;ls /media/
+: 1396512312:0;ls /media/usbhd-sda6/
+: 1396512593:0;rm /etc/udev/rules.d/11-media-by-label-auto-mount.rules
+: 1396512604:0;sudo rm /etc/udev/rules.d/11-media-by-label-auto-mount.rules11
+: 1396512614:0;sudo rm /etc/udev/rules.d/11-media-by-label-auto-mount.rules
+: 1396512664:0;yaourt udisksevty
+: 1396512669:0;yaourt udisksevt
+: 1396512676:0;yaourt udisk
+: 1396512683:0;yaourt udisk haskell
+: 1396512710:0;pacman -S udevil
+: 1396512783:0;pacman -S udisk2
+: 1396512790:0;pacman -S udisks2
+: 1396512825:0;ls /media/
+: 1396512830:0;sudo reboot
+: 1396513275:0;dd count=1 bs=512 if=/dev/zero of=/dev/sdc && sync
+: 1396513283:0;dd count=1 bs=512 if=/dev/zero of=/dev/sdc && sync\
+
+: 1396513298:0;sudo dd count=1 bs=512 if=/dev/zero of=/dev/sdc && sync
+: 1396513340:0;pacman -S dosfstools
+: 1396513359:0;cfdisk /dev/sdc
+: 1396513367:0;sudo cfdisk /dev/sdc
+: 1396513378:0;sudo fdisk /dev/sdc
+: 1396513525:0;mkfs.vfat -F32 /dev/sdc1
+: 1396513531:0;sudo mkfs.vfat -F32 /dev/sdc1
+: 1396513559:0;sudo dosfslabel /dev/sdc1 USB_STICK
+: 1396513667:0;fdisk
+: 1396513672:0;fdisk -l
+: 1396513679:0;fdisk -l /dev/sdb
+: 1396513683:0;sudo fdisk -l /dev/sdb
+: 1396513693:0;sudo fdisk -l
+: 1396513726:0;sudo dd count=1 bs=512 if=/dev/zero of=/dev/sdb && sync
+: 1396513774:0;fdisk /dev/sdb
+: 1396513785:0;sudo fdisk /dev/sdb
+: 1396513816:0;mkfs.ext3 /dev/sdb1
+: 1396513824:0;sudo mkfs.ext3 /dev/sdb
+: 1396513832:0;sudo mkfs.ext3 /dev/sdb1
+: 1396514018:0;ls /media/
+: 1396514128:0;ls /media/usbhd-sda6/
+: 1396514133:0;ls /media/usbhd-sdb1/
+: 1396514141:0;ls /media/usbhd-sda7/
+: 1396514152:0;ls /media/EFI/
+: 1396514163:0;rm /media/*
+: 1396514171:0;rmdir /media/*
+: 1396514176:0;sudo rmdir /media/*
+: 1396514246:0;sudoedit /etc/udev/rules.d/99-udisk2.ru
+: 1396514255:0;sudoedit /etc/udev/rules.d/99-udisk2.rules
+: 1396514649:0;udevil
+: 1396514663:0;devmon
+: 1396514674:0;devmon --help
+: 1396514775:0;sudo udevil mount -o noatime /dev/sdb1
+: 1396514788:0;/media/ARCH_201403/
+: 1396514790:0;ls
+: 1396515090:0;vim ~/recovery.sh
+: 1396515161:0;umount /media/ARCH_201403
+: 1396515169:0;sudo umount /media/ARCH_201403
+: 1396515190:0;sudo umount /media/ARCH_201403 
+: 1396515258:0;sudo udevil umount /media/ARCH_201403/
+: 1396515310:0;sudo umount -f /media/ARCH_201403 
+: 1396515324:0;sudo umount -l /media/ARCH_201403 
+: 1396515335:0;cd
+: 1396515340:0;./recovery.sh
+: 1396515465:0;vim recovery.sh
+: 1396535138:0;xmodmap .Xmodmap
+: 1396544217:0;sudo systemctl stop slim.service
+: 1396544228:0;sudo systemctl start slim.service
+: 1396546204:0;/media/ARCH_201403/
+: 1396546208:0;ls
+: 1396546212:0;ls /media/ARCH_201403/
+: 1396546220:0;sudo cd /media/ARCH_201403/
+: 1396546238:0;sudo ls /media/ARCH_201403/
+: 1396546393:0;sudo udevil mount /dev/sdb1
+: 1396546407:0;ls /media/sdb1-usb-APPLE_SD_Card_Re/
+: 1396546417:0;ls /media/sdb1-usb-APPLE_SD_Card_Re/boot/zImage
+: 1396546455:0;ls
+: 1396546581:0;gzip Downloads/2014-03-22-netbsd-raspi.img.gz 
+: 1396546612:0;gzip -d Downloads/2014-03-22-netbsd-raspi.img.gz 
+: 1396546659:0;ls
+: 1396546699:0;ls Downloads/2014-03-22-netbsd-raspi.img
+: 1396546864:0;/media/sdb1-usb-APPLE_SD_Card_Re/
+: 1396546866:0;ls
+: 1396546868:0;boot
+: 1396546869:0;ls
+: 1396546873:0;vim zImage
+: 1396546902:0;ll
+: 1396547746:0;pacman -S kpartx
+: 1396547758:0;partx
+: 1396547815:0;ls /mnt/
+: 1396547819:0;cd
+: 1396548015:0;sudo mount Downloads/2014-03-22-netbsd-raspi.img /mnt/ 
+: 1396548049:0;sudo mount -t iso9660 -o loop Downloads/2014-03-22-netbsd-raspi.img /mnt/ 
+: 1396548060:0;ll
+: 1396548063:0;ll Downloads/
+: 1396548181:0;sudo mount -o loop Downloads/2014-03-22-netbsd-raspi.img /mnt/ 
+: 1396548403:0;sudo mount -o ro,loop Downloads/2014-03-22-netbsd-raspi.img /mnt/ 
+: 1396548432:0;sudo mount -t iso9660 -o ro,loop Downloads/2014-03-22-netbsd-raspi.img /mnt/ 
+: 1396548507:0;yaourt kpartx
+: 1396548768:0;kpartx
+: 1396548802:0;kpartx -v -a Downloads/2014-03-22-netbsd-raspi.img
+: 1396548811:0;sudo kpartx -v -a Downloads/2014-03-22-netbsd-raspi.img
+: 1396548827:0;mount /dev/mapper/loop0p1 /mnt/
+: 1396548832:0;sudo mount /dev/mapper/loop0p1 /mnt/
+: 1396548837:0;ls /mnt/
+: 1396549167:0;cp /mnt/netbsd.netwalker.touchpad.zImage /media/sdb1-usb-APPLE_SD_Card_Re/boot/zImage
+: 1396549181:0;sudo cp /mnt/netbsd.netwalker.touchpad.zImage /media/sdb1-usb-APPLE_SD_Card_Re/boot/zImage
+: 1396549228:0;sudo umount /media/sdb1-usb-APPLE_SD_Card_Re 
+: 1396549616:0;umount /mnt
+: 1396549630:0;sudo umount /mnt
+: 1396549652:0;sudo mount /dev/mapper/loop0p1 /mnt/
+: 1396549658:0;cd /mnt/
+: 1396549659:0;ls
+: 1396549749:0;sudo udevil /dev/sdb1
+: 1396549756:0;sudo udevil mount /dev/sdb1
+: 1396549764:0;/media/sdb1-usb-APPLE_SD_Card_Re/
+: 1396549765:0;ls
+: 1396549780:0;sudoedit /etc/fstab
+: 1396549863:0;sudoedit etc/fstab
+: 1396550128:0;sudo dd bs=4M if=~/Downloads/2014-03-22-netbsd-raspi.img of=/dev/sdc && sync
+: 1396550154:0;lsblk
+: 1396550177:0;exit
+: 1396550392:0;/mnt/
+: 1396550469:0;kpartx -v -a ./kernel.img
+: 1396550477:0;sudo kpartx -v -a ./kernel.img
+: 1396550524:0;ls
+: 1396550639:0;cd
+: 1396550647:0;sudo umount /mnt
+: 1396550702:0;sudo umount -l /mnt
+: 1396550715:0;sudo dd bs=4M if=~/Downloads/2014-03-22-netbsd-raspi.img of=/dev/sdc && sync
+: 1396550796:0;sudo killall -SIGUSR1 dd
+: 1396550848:0;ll Downloads/
+: 1396550861:0;ll -m Downloads/
+: 1396550867:0;ll -M Downloads/
+: 1396550873:0;ls --help
+: 1396550895:0;ll Downloads/
+: 1396550927:0;sudo killall -SIGUSR1 dd
+: 1396550966:0;killall -SIGUSR1 dd
+: 1396550970:0;sudo killall -SIGUSR1 dd
+: 1396551351:0;eject /dev/sdc
+: 1396551355:0;sudo eject /dev/sdc
+: 1396551390:0;sudo umount /media/sdb1-usb-APPLE_SD_Card_Re 
+: 1396551973:0;sudo udevil mount /dev/sdb1
+: 1396551987:0;/media/sdb1-usb-APPLE_SD_Card_Re/
+: 1396551988:0;ls
+: 1396551996:0;sudoedit etc/fstab
+: 1396552176:0;sudo systemctl stop slim.service
+: 1396552199:0;sudo systemctl start slim.service
+: 1396552230:0;sudo udevil mount /dev/sdc1
+: 1396552241:0;/media/sdc1-usb-UFD_3.0_Silicon-/
+: 1396552242:0;ls
+: 1396552262:0;ll
+: 1396552300:0;less README.netwalker
+: 1396552346:0;ll
+: 1396552383:0;sudo kpartx -v -a ./kernel.img
+: 1396552506:0;/media/sdb1-usb-APPLE_SD_Card_Re/
+: 1396552507:0;ls
+: 1396552511:0;boot
+: 1396552512:0;ls
+: 1396552519:0;../bin/
+: 1396552520:0;ls
+: 1396574743:0;/media/sdb1-usb-APPLE_SD_Card_Re/
+: 1396574745:0;ls
+: 1396574753:0;sudoedit /etc/fstab
+: 1396574761:0;sudoedit etc/fstab
+: 1396574837:0;..
+: 1396574851:0;./sdb1-usb-APPLE_SD_Card_Re/boot/
+: 1396574852:0;ls
+: 1396574857:0;sudoedit boot.conf
+: 1396575168:0;less README.netwalker
+: 1396575187:0;/media/sdc1-usb-UFD_3.0_Silicon-/
+: 1396575221:0;ftp ftp://rappappararin.dyndns.org/pun/NETWALKER/zImage
+: 1396575253:0;ftp ftp://rappappararin.dyndns.org/pub/NETWALKER/zImage
+: 1396575305:0;ll
+: 1396575334:0;vim kernel.img
+: 1396575542:0;cd
+: 1396575566:0;chroot Downloads/2014-03-22-netbsd-raspi.img
+: 1396575580:0;\
+
+: 1396575583:0;chroot -h
+: 1396575586:0;chroot --help
+: 1396575664:0;chroot /media/sdc1-usb-UFD_3.0_Silicon-/
+: 1396575670:0;sudo chroot /media/sdc1-usb-UFD_3.0_Silicon-/
+: 1396575682:0;sudo chroot /media/sdc1-usb-UFD_3.0_Silicon-/ /bin/sh
+: 1396575785:0;sudoedit /media/sdb1-usb-APPLE_SD_Card_Re/etc/fstab
+: 1396575855:0;sudo umount /media/sdb1-usb-APPLE_SD_Card_Re
+: 1396576062:0;sudo udevil mount /dev/sdb1
+: 1396576067:0;sudo udevil mount /dev/sdb
+: 1396576073:0;sudo udevil mount /dev/sdb1
+: 1396576080:0;/media/sdb1-usb-APPLE_SD_Card_Re/
+: 1396576090:0;sudoedit boot/zImage
+: 1396576326:0;zcat boot/zImage
+: 1396576355:0;zcat -f boot/zImage
+: 1396576548:0;gunzip -c boot/zImage
+: 1396576555:0;gunzip -c -f boot/zImage
+: 1396576669:0;:q
+: 1396576675:0;/media/sdc1-usb-UFD_3.0_Silicon-/
+: 1396576676:0;ls
+: 1396576682:0;vim bootcode.bin
+: 1396576694:0;vim cmdline.txt
+: 1396576720:0;sudoedit cmdline.txt
+: 1396576778:0;vim start.elf
+: 1396576803:0;vim fixup
+: 1396576807:0;vim fixup.dat
+: 1396576839:0;kpartx -v -a netbsd.netwalker.touchpad.zImage
+: 1396576849:0;sudo kpartx -v -a netbsd.netwalker.touchpad.zImage
+: 1396576944:0;ls /dev/mapper/
+: 1396576975:0;sudo mount /dev/mapper/loop0p1 /mnt
+: 1396576978:0;/mnt
+: 1396576978:0;ls
+: 1396576999:0;sudo kpartx -v -a kernel.img
+: 1396577029:0;fdisk -l
+: 1396577074:0;sudo fdisk kernel.img
+: 1396577139:0;sudo umount /media/sdc1-usb-UFD_3.0_Silicon-
+: 1396577151:0;cd
+: 1396577154:0;sudo umount /media/sdc1-usb-UFD_3.0_Silicon-
+: 1396577158:0;cd
+: 1396577163:0;sudo umount /mnt
+: 1396577181:0;sudo umount -l /media/sdc1-usb-UFD_3.0_Silicon-
+: 1396577199:0;sudo umount -l /media/sdb1-usb-APPLE_SD_Card_Re
+: 1396577834:0;sudo udevil mount /dev/sdb1
+: 1396577904:0;/media/sdb1-usb-APPLE_SD_Card_Re/
+: 1396577905:0;ls
+: 1396577916:0;sudoedit /etc/fstab
+: 1396577923:0;sudoedit etc/fstab
+: 1396577989:0;exit
+: 1396577994:0;cd
+: 1396578003:0;sudo umount /media/sdb1-usb-APPLE_SD_Card_Re
+: 1396615238:0;homesick
+: 1396615268:0;homesick pull
+: 1396615280:0;homesick push
+: 1396615308:0;git
+: 1396615311:0;homesick
+: 1396615320:0;homesick list
+: 1396615357:0;ls .homesick/repos/dotfiles
+: 1396615371:0;ls
+: 1396615374:0;ll
+: 1396615390:0;vim .zshrc
+: 1396615420:0;ls .homesick/repos/dotfiles/home/
+: 1396615430:0;homesick add .
+: 1396615434:0;homesick
+: 1396615461:0;homesick commit
+: 1396615472:0;homesick commit dotfiles
+: 1396615541:0;homesick push dotfiles
+: 1396615623:0;homesick commit all
+: 1396615630:0;homesick commit dotfiles
+: 1396615666:0;cd .homesick/repos/dotfiles
+: 1396615669:0;ls home/
+: 1396615674:0;ls
+: 1396615678:0;ls home
+: 1396615686:0;ls
+: 1396615709:0;mv home/* .
+: 1396615712:0;ls
+: 1396615719:0;ls home/
+: 1396615726:0;mv home/* .
+: 1396615742:0;cd home/
+: 1396615743:0;ls
+: 1396615746:0;mv * ..
+: 1396615755:0;mv .* ..
+: 1396615757:0;ls
+: 1396615759:0;cd ..
+: 1396615761:0;ls
+: 1396615768:1;rm autolink.sh
+: 1396615772:1;rm newlink
+: 1396615780:0;rm home/
+: 1396615787:0;rmdir home/
+: 1396615796:0;homesick commit dotfiles
+: 1396615804:0;ls
+: 1396615854:0;mkdir home
+: 1396615860:0;mv .* home/
+: 1396615861:0;ls
+: 1396615863:0;cd home/
+: 1396615864:0;ls
+: 1396615870:0;homesick commit dotfiles
+: 1396615948:0;mv .git/ ..
+: 1396615949:0;ls
+: 1396615952:0;homesick commit dotfiles
+: 1396615981:0;git add .
+: 1396615984:0;homesick commit dotfiles
