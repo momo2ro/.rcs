@@ -181,10 +181,13 @@ alias cp='cp -i'
 alias rm='rm -i'
 alias w3m='w3m http://google.com'
 
+<<<<<<< HEAD
 source "/home/momo2ro/.homesick/repos/homeshick/homeshick.sh"
 
 fpath=($HOME/.homesick/repos/homeshick/completions $fpath)
 
+=======
+>>>>>>> origin/master
 #=============================
 # source auto-fu.zsh
 #=============================
@@ -215,5 +218,8 @@ if [ -z "$TMUX" -a -z "$STY" ]; then
             screen -rx || screen -D -RR
         fi
 fi
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/master
