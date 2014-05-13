@@ -8,6 +8,7 @@ int main(int argc, char *argv[]) {
     for (i = 1; i < argc; i++) {
         FILE *f;
         int c;
+        int e = '\n';
 
         f = fopen(argv[i], "r");
         if (!f) {
@@ -17,11 +18,9 @@ int main(int argc, char *argv[]) {
         is = 0;
         while((c = fgetc(f)) != EOF) {
             if (c == '\n') is++;
+            e = c;
         }
-        fseek(f,-1,SEEK_END);
-        while ((c = fgetc(f)) != EOF) {
-            if (c != '\n') is--;
-        }
+        if (e != '\n') is++;
         printf("%d", is);
         fclose(f);
     }
