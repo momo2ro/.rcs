@@ -12,9 +12,6 @@ set nomodeline
 set printoptions=paper:a4
 set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.ilg,.inx,.out,.toc
 " vim: set ft=vim :
-"=============================================
-" General Config
-"=============================================
 
 "バックスペースで行頭削除
 set backspace=indent,eol,start
@@ -28,21 +25,11 @@ set nostartofline
 "C-vの矩形選択で行末より後ろもカーソルを置ける
 set virtualedit=block
 
-"履歴数
 set history=500
-
-"ランタイムパス
 set runtimepath=~/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim72,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,~/.vim/after
 
-"スワップファイル
 set swapfile
 set directory=$HOME/.vim/swap
-
-"UTF-8でエンコードする
-set encoding=utf-8
-"=============================================
-" Search Config
-"=============================================
 
 "インクリメンタルサーチを有効にする
 set incsearch
@@ -56,13 +43,11 @@ set smartcase
 "行末まで検索したら行頭に戻る
 set wrapscan
 
-"=============================================
-" Format Config
-"=============================================
-
 "自動インデントを有効化する
 set smartindent
-set autoindent
+set tabstop=4
+set expandtab
+set shiftwidth=4
 
 "ファイルタイプに応じて挙動,色を変える
 syntax on
@@ -81,12 +66,9 @@ set showmatch
 "行頭の余白内で Tab を打ち込むと、'shiftwidth' の数だけインデントする。
   set smarttab
 
-"=============================================
-" Look & Feel Config
-"=============================================
-
 "行番号表示
-set number
+set relativenumber
+nnoremap <F3> :<C-u>setlocal relativenumber!<CR>
 
 "ルーラー表示
 set ruler
@@ -167,19 +149,18 @@ set statusline+=[%p%%]
 
 "エンコード設定
 if has('unix')
-	    set fileformat=unix
-	        set fileformats=unix,dos,mac
-		    set fileencoding=utf-8
-		        set fileencodings=utf-8,iso-2022-jp,cp932,euc-jp
-			    set termencoding=
-			    elseif has('win32')
-			        set fileformat=dos
-				    set fileformats=dos,unix,mac
-				        set fileencoding=utf-8
-					    set fileencodings=iso-2022-jp,utf-8,euc-jp,cp932
-					        set termencoding=
-						endif
-						
+    set fileformat=unix
+    set fileformats=unix,dos,mac
+    set fileencoding=utf-8
+    set fileencodings=utf-8,iso-2022-jp,cp932,euc-jp
+    set termencoding=
+    elseif has('win32')
+    set fileformat=dos
+    set fileformats=dos,unix,mac
+    set fileencoding=utf-8
+    set fileencodings=iso-2022-jp,utf-8,euc-jp,cp932
+    set termencoding=
+endif
 
 "=============================================
 " Key Config

@@ -32,6 +32,10 @@ PROMPT="${debian_chroot:+($debian_chroot)}%n@%m:%c%# "
 #lesspipe
 eval "$(lesspipe.sh)"
 
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+
+export XMODIFIERS="@im=uim"
+export GTK_IM_MODULE="uim"
 #=============================================
 # Completion Config
 #=============================================
@@ -174,20 +178,19 @@ alias apt-get='sudo apt-get'
 alias aptitude='sudo aptitude'
 alias pacman='sudo pacman'
 alias ls='ls -a --color=auto'
-alias ll='ls -la --color=auto'
+alias ll='ls -alh --color=auto'
 alias v='vim'
 alias less='less -N'
 alias cp='cp -i'
 alias rm='rm -i'
 alias w3m='w3m http://google.com'
+alias mkcd='source $HOME/bin/mkcd.sh'
+alias gcc='gcc-4.8'
+alias gia='git add .'
+alias gic='git commit'
+alias gipo='git push origin master'
 
-<<<<<<< HEAD
-source "/home/momo2ro/.homesick/repos/homeshick/homeshick.sh"
 
-fpath=($HOME/.homesick/repos/homeshick/completions $fpath)
-
-=======
->>>>>>> origin/master
 #=============================
 # source auto-fu.zsh
 #=============================
@@ -209,17 +212,12 @@ if [ -z "$TMUX" -a -z "$STY" ]; then
     if type tmuxx >/dev/null 2>&1; then
             tmuxx
         elif type tmux >/dev/null 2>&1; then
-        if tmux has-session && tmux list-sessions | /usr/bin/grep -qE '.*]$'; then
-            tmux attach && echo "tmux attached session "
-            else
-                tmux new-session && echo "tmux created new session"
+		if tmux has-session && tmux list-sessions | /usr/bin/grep -qE '.*]$'; then
+			tmux attach && echo "tmux attached session "
+		else
+			tmux new-session && echo "tmux created new session"
         fi
     elif type screen >/dev/null 2>&1; then
             screen -rx || screen -D -RR
         fi
 fi
-<<<<<<< HEAD
-
-
-=======
->>>>>>> origin/master

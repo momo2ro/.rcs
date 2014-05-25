@@ -533,3 +533,870 @@
 : 1396615952:0;homesick commit dotfiles
 : 1396615981:0;git add .
 : 1396615984:0;homesick commit dotfiles
+: 1398613296:0;pwd
+: 1398613300:0;ls
+: 1398613335:4;brew install homesick
+: 1398613346:1;gem
+: 1398613351:8;gem install homesick
+: 1398613369:11;sudo gem install homesick
+: 1398613384:1;homesick
+: 1398613390:0;homesick clone
+: 1398613468:10;homesick clone momo2ro/dotfiles
+: 1398613488:0;homesick symlink dotfiles
+: 1398613497:0;source .zshr
+: 1398613498:0;source .zshrc
+: 1398613847:0;brew install tmux
+: 1398613902:0;cp /Library/Input\ Methods/AquaSKK.app/Contents/Resources/keymap.conf ~/Library/Application\ Support/AquaSKK/
+: 1398613917:0;Library/Application\ Support/AquaSKK/
+: 1398613918:0;ls
+: 1398613927:0;ll
+: 1398613930:0;ls -a
+: 1398613941:0;vim ~/.zshrc
+: 1398613980:0;source ~/.zshrc
+: 1398613983:0;ls -a
+: 1398613985:0;ls 
+: 1398613987:0;ls
+: 1398613998:0;vim ~/.zshrc
+: 1398614034:0;source ~/.zshrc
+: 1398614037:0;ls -a
+: 1398614047:0;ll
+: 1398614053:0;vim keymap.conf
+: 1398614099:0;xkb
+: 1398614156:0;vim keymap.conf
+: 1398614347:0;brew install key codes
+: 1398614354:0;brew install keycodes
+: 1398614644:0;vim keymap.conf
+: 1398615982:0;cd /Applications && curl http://www.ninjamonkeysoftware.com/slate/versions/slate-latest.tar.gz | tar -xz
+: 1398616759:0;brew install haskell
+: 1398616765:0;brew install ghci
+: 1398616768:0;brew install ghc
+: 1398617309:0;ghci
+: 1398617328:0;brew install gtk2
+: 1398617361:0;brew install gtk+
+: 1398618647:0;brew install coreutils --default-names
+: 1398618681:0;homesick clone momo2ro:dotfiles
+: 1398618835:0;gem install gtk2
+: 1398618864:0;sudo gem install gtk2
+: 1398619365:0;tmux
+: 1398619376:0;exit
+: 1398619402:0;defaults
+: 1398619506:0;vim .zshrc
+: 1398619598:0;def install
+: 1398619700:0;sdef
+: 1398619707:0;sdef install
+: 1398619714:0;brew install def
+: 1398619746:0;brew
+: 1398619852:0;brew install -vd coreutils
+: 1398619875:0;brew
+: 1398619890:0;brew edit coreutils
+: 1398619966:0;ls --color=auto
+: 1398619973:0;gls --color=auto
+: 1398619976:0;gls
+: 1398619988:0;brew install coreutils
+: 1398620031:0;brew uninstall coreutils
+: 1398620039:0;brew install coreutils
+: 1398620049:0;exit
+: 1398620063:0;brew uninstall coreutils
+: 1398620068:0;brew install coreutils
+: 1398620504:0;ls --color=auto
+: 1398620521:0;gls
+: 1398620529:0;gls --colors=auto
+: 1398620535:0;gls --color=auto
+: 1398620564:0;zsh .zshrc
+: 1398620569:0;vim .zshrc
+: 1398620638:0;source .zshrc
+: 1398620641:0;ls
+: 1398621494:0;mv Downloads/mikutter ~
+: 1398621503:0;mikutter/
+: 1398621512:0;ruby mikutter.rb
+: 1398621575:0;brew install gtk2
+: 1398621619:0;sudo gem install gtk2
+: 1398621759:0;ssh
+: 1398621761:0;sshd
+: 1398637190:0;vim /etc/hostconfig
+: 1398637196:0;vim /etc/hosts
+: 1398637268:0;sudoedit /etc/hosts
+: 1398637272:0;sudovim /etc/hosts
+: 1398637276:0;sudo vim /etc/hosts
+: 1398637334:0;diskutil list
+: 1398637360:0;diskutil umount /dev/disk1
+: 1398704333:0;mikutter
+: 1398704343:0;ruby mikutter.rb
+: 1398704599:0;brew install macvim
+: 1398704609:0;brew install macuim
+: 1398705153:0;brew install dropbox
+: 1398705510:0;Downloads/
+: 1398705515:0;chmod 755 bootstrap-prefix.sh
+: 1398705518:0;./bootstrap-prefix.sh
+: 1398707158:0;brew install wine
+: 1398732278:0;./bootstrap-prefix.sh
+: 1398742085:0;wine
+: 1398742164:0;mkdir learningc
+: 1398742168:0;mkcd
+: 1398742203:0;mkdir bin
+: 1398742207:0;bin/
+: 1398742212:0;vim mkcd.sh
+: 1398742246:0;chmod u+x mkcd.sh
+: 1398742249:0;mkcd
+: 1398742262:0;vim ~/.zshrc
+: 1398742302:0;source ~/.zshrc
+: 1398742304:0;mkcd
+: 1398742311:0;cd
+: 1398743911:0;learningc/
+: 1398743916:0;vim cat.c
+: 1398746226:0;gcc -o cat.o cat.c
+: 1398746233:0;vim cat.c
+: 1398746278:0;gcc -o cat.o cat.c
+: 1398746292:0;vim cat.c
+: 1398746326:0;gcc -o cat.o cat.c
+: 1398746333:0;cat.o
+: 1398746341:0;./cat.o cat.c
+: 1398746514:0;./cat.o cat
+: 1398746527:0;chmod -r cat.c
+: 1398746529:0;./cat.o cat.c
+: 1398746534:0;chmod +r cat.c
+: 1398746771:0;vim cat.c
+: 1398747125:0;gcc -o cat.o cat.c
+: 1398747146:0;vim cat.c
+: 1398747658:0;gcc -o cat.o cat.c
+: 1398747664:0;cat.o cat
+: 1398747668:0;./cat.o cat
+: 1398747724:0;./cat.o ã¦ãƒªãƒ¯ã‚ƒ¬
+: 1398747734:0;./cat.o æ±ƒ€ãƒ£©
+: 1398747749:0;git init
+: 1398747751:0;ls
+: 1398747759:0;git add .
+: 1398747763:0;git commit
+: 1398747832:0;git push
+: 1398747856:0;git remote add origin git@github.com:momo2ro/learningc
+: 1398747862:0;git push origin master
+: 1398747950:0;ssh-keygen
+: 1398747970:0;../.ssh/
+: 1398747975:0;cat id_rsa.pub
+: 1398748039:0;../learningc/
+: 1398748041:0;git push origin master
+: 1398810025:0;df
+: 1398820153:0;perl-cleaner --all
+: 1398986305:0;vim .zshrc
+: 1398986451:0;learningc/
+: 1398986539:0;vim cat2.c
+: 1398993262:0;gcc -o cat2.o cat2.c
+: 1398993283:0;./cat2.o cat2.c
+: 1398993292:0;./cat.o cat2.c
+: 1399001423:0;./cat2.o cat2.c
+: 1399001425:0;vim cat2.c
+: 1399001449:0;gcc -o cat2.o cat2.c
+: 1399001453:0;./cat2.o cat2.c
+: 1399001486:0;vim cat2.c
+: 1399001503:0;gcc -o cat2.o cat2.c
+: 1399001505:0;./cat2.o cat2.c
+: 1399001514:0;./cat2.o a
+: 1399001823:0;sl
+: 1399028418:0;ping -c 3 google.com
+: 1399028530:0;rm -r /System/Library/Extensions/HoRNDIS.kext
+: 1399028538:0;yes |rm -r /System/Library/Extensions/HoRNDIS.kext
+: 1399028548:0;yes |sudo rm -r /System/Library/Extensions/HoRNDIS.kext
+: 1399028570:0;sudo reboot
+: 1399029270:0;diskutil list
+: 1399271616:0;irc
+: 1399280679:0;vim .slate.js
+: 1399280940:0;vim .vimrc
+: 1399281189:0;tmux
+: 1399281338:0;vim .zshrc
+: 1399281485:0;source .zshrc
+: 1399281489:0;vim .zshrc
+: 1399281507:0;source .zshrc
+: 1399564013:0;ruby mikutter/mikutter.rb
+: 1399606239:0;vim /opt/X11/lib/X11/xinit/xinitrc.d/98-user.sh
+: 1399606942:0;install -d ~/.xinitrc.d
+: 1399607016:0;echo '/Library/Frameworks/UIM.framework/Versions/Current/bin/uim-xim --engine=skk &' > ~/.xinitrc.d/uim-xim.sh
+: 1399607028:0;chmod +x .xinitrc.d/uim-xim.sh
+: 1399607053:0;/Library/Frameworks/UIM.framework/Versions/Current/bin/uim-xim --list
+: 1399607085:0;vim .zshrc
+: 1399607118:0;export .zshrc
+: 1399607125:0;source .zshrc
+: 1399607139:0;ruby mikutter/mikutter.rb
+: 1399876296:0;ping -c 3 google.com
+: 1399876560:0;learningc/
+: 1399876561:0;ls
+: 1399876568:0;vim cat3.c
+: 1399877680:0;gcc cat3.c cat3.p
+: 1399877684:0;gcc cat3.c cat3.o
+: 1399877695:0;gcc cat3.o cat3.c
+: 1399877708:0;gcc -o cat3.c cat3.o
+: 1399877715:0;gcc -o cat3.o cat3.c
+: 1399877757:0;vim cat3.c
+: 1399877790:0;exit
+: 1399877794:0;tmux -a
+: 1399877797:0;tmux
+: 1399877806:0;learningc/
+: 1399877808:0;gcc -o cat3.o cat3.c
+: 1399877850:0;vim ~/.tmux.conf
+: 1399877944:0;vim cat3.c
+: 1399877960:0;gcc -o cat3.o cat3.c
+: 1399877977:0;vim cat3.c
+: 1399878086:0;gcc -o cat3.o cat3.c
+: 1399878160:0;vim cat3.c
+: 1399878337:0;gcc -o cat3.o cat3.c
+: 1399878362:0;vim cat3.c
+: 1399878377:0;gcc -o cat3.o cat3.c
+: 1399878384:0;vim cat3.c
+: 1399878397:0;gcc -o cat3.o cat3.c
+: 1399878520:0;vim cat3.c
+: 1399878536:0;gcc -o cat3.o cat3.c
+: 1399878591:0;vim cat3.c
+: 1399878682:0;gcc -o cat3.o cat3.c
+: 1399878700:0;vim cat3.c
+: 1399878711:0;gcc -o cat3.o cat3.c
+: 1399878748:0;vim cat3.c
+: 1399878768:0;gcc -o cat3.o cat3.c
+: 1399878776:0;vim cat3.c
+: 1399878797:0;gcc -o cat3.o cat3.c
+: 1399878802:0;vim cat3.c
+: 1399878821:0;gcc -o cat3.o cat3.c
+: 1399878831:0;vim cat3.c
+: 1399878842:0;gcc -o cat3.o cat3.c
+: 1399878861:0;./cat3.o cat.c
+: 1399878872:0;./cat3.o
+: 1399878886:0;./cat3.o cat.cf
+: 1399878891:0;./cat3.o cat.c
+: 1399878897:0;ll
+: 1399878911:0;./cat3.o cat.c
+: 1399878919:0;sh cat3.o
+: 1399878926:0;sh cat3.o cat.
+: 1399878927:0;sh cat3.o cat.c
+: 1399878934:0;gcc -o cat3.o cat3.c
+: 1399878939:0;vim cat3.c
+: 1399879011:0;./cat2.o cat.c
+: 1399879020:0;./cat3.o cat.c
+: 1399879026:0;gcc -o cat3.o cat3.c
+: 1399879028:0;vim cat3.c
+: 1399879185:0;gcc -o cat3.o cat3.c
+: 1399879188:0;./cat3.o cat.c
+: 1399879519:0;cd
+: 1399879532:0;Downloads/LinuxProgramming-samples/
+: 1399879533:0;ls
+: 1399879538:0;cat cat3.c
+: 1399879563:0;cat cat4.c
+: 1399879588:0;cat cate
+: 1399879591:0;cat cat-escape.c
+: 1399879640:0;cd
+: 1399879646:0;learningc/
+: 1399879652:0;vim cat3.o
+: 1399879655:0;vim cat3.c
+: 1399879767:0;cat Downloads/LinuxProgramming-samples/cat-escape.c
+: 1399880439:0;man putchar
+: 1399880561:0;gcc -o cat3.o cat3.c
+: 1399880575:0;vim cat3.c
+: 1399880631:0;gcc -o cat3.o cat3.c
+: 1399880668:0;vim cat3.c
+: 1399880753:0;gcc -o cat3.o cat3.c
+: 1399880760:0;vim cat3.c
+: 1399880769:0;gcc -o cat3.o cat3.c
+: 1399880803:0;vim cat3.c
+: 1399880857:0;gcc -o cat3.o cat3.c
+: 1399880870:0;./cat3.o cat3.c
+: 1399880918:0;vim ~/.vimrc
+: 1399881154:0;1
+: 1399881183:0;vim wc.l
+: 1399881242:0;ls
+: 1399881295:0;less
+: 1399881315:0;less Downloads/LinuxProgramming-samples/cat-escape.c
+: 1399882387:0;./cat3.o cat3.c
+: 1399882434:0;mv wc.l wc.c
+: 1399882443:0;gcc -o wc.o wc.c
+: 1399882490:0;vim wc.c
+: 1399882564:0;gcc -o wc.o wc.c
+: 1399882573:0;vim wc.c
+: 1399882579:0;gcc -o wc.o wc.c
+: 1399882587:0;vim wc.c
+: 1399882602:0;gcc -o wc.o wc.c
+: 1399882607:0;vim wc.c
+: 1399882619:0;gcc -o wc.o wc.c
+: 1399882627:0;vim wc.c
+: 1399882636:0;gcc -o wc.o wc.c
+: 1399882670:0;./wc.o ~/Downloads/LinuxProgramming-samples/cat-escape.c
+: 1399882697:0;wc.o cat2.c
+: 1399882701:0;./wc.o cat2.c
+: 1399882732:0;vim wc.c
+: 1399882856:0;gcc -o wc.o wc.c
+: 1399882861:0;./wc.o cat2.c
+: 1399882872:0;vim wc.c
+: 1399882994:0;gcc -o wc.o wc.c
+: 1399882997:0;./wc.o cat2.c
+: 1399883025:0;vim wc.c
+: 1399883099:0;gcc -o wc.o wc.c
+: 1399883117:0;vim wc.c
+: 1399883142:0;gcc -o wc.o wc.c
+: 1399883152:0;vim wc.c
+: 1399883184:0;gcc -o wc.o wc.c
+: 1399883189:0;./wc.o cat2.c
+: 1399883196:0;vim wc.c
+: 1399883245:0;gcc -o wc.o wc.c
+: 1399883248:0;vim wc.c
+: 1399883254:0;gcc -o wc.o wc.c
+: 1399883258:0;./wc.o cat2.c
+: 1399883265:0;vim wc.c
+: 1399883335:0;gcc -o wc.o wc.c
+: 1399883338:0;./wc.o cat2.c
+: 1399883345:0;vim wc.c
+: 1399883367:0;ll
+: 1399883384:0;vim wc.c
+: 1399883495:0;gcc -o wc.o wc.c
+: 1399883499:0;./wc.o cat2.c
+: 1399883514:0;vim wc.c
+: 1399883584:0;gcc -o wc.o wc.c
+: 1399883587:0;./wc.o cat2.c
+: 1399883594:0;vim wc.c
+: 1399883609:0;gcc -o wc.o wc.c
+: 1399883611:0;./wc.o cat2.c
+: 1399883629:0;vim wc.c
+: 1399884098:0;gcc -o wc.o wc.c
+: 1399884101:0;./wc.o cat2.c
+: 1399884103:0;vim wc.c
+: 1399884196:0;gcc -o wc.o wc.c
+: 1399884198:0;./wc.o cat2.c
+: 1399884208:0;less cat2.c
+: 1399884223:0;vim wc.c
+: 1399884542:0;gcc -o wc.o wc.c
+: 1399884546:0;./wc.o cat2.c
+: 1399884599:0;vim wc.c
+: 1399885098:0;gcc -o wc.o wc.c
+: 1399885105:0;vim wc.c
+: 1399885115:0;gcc -o wc.o wc.c
+: 1399885118:0;./wc.o cat2.c
+: 1399885131:0;git add .
+: 1399885136:0;git commit
+: 1399885195:0;git clone origin master
+: 1399885240:0;git remote add origin git@github.com:momo2ro/dotfiles.git
+: 1399885246:0;git clone origin
+: 1399885258:0;git push origin master
+: 1399885299:0;Downloads/LinuxProgramming-samples/
+: 1399885304:0;less wcl.c
+: 1399885389:0;time ./wc.o cat2.c
+: 1399885504:0;time -p ./wc.o cat2.c
+: 1399885515:0;time
+: 1399885523:0;man time
+: 1399885529:0;time -l
+: 1399885533:0;man time
+: 1399885552:0;/usr/bin/time
+: 1399885569:0;/usr/bin/time ./wc.o cat2.c
+: 1399885686:0;/usr/bin/time ./cat2.o cat2.c
+: 1399885691:0;/usr/bin/time ./cat3.o cat2.c
+: 1399885704:0;time ls
+: 1399885725:0;time ./wc.o cat2.c
+: 1399885750:0;gcc wcl.o ~/Downloads/LinuxProgramming-samples/wcl.c
+: 1399885759:0;gcc -o wcl.o ~/Downloads/LinuxProgramming-samples/wcl.c
+: 1399885768:0;time ./wcl.o cat2.c
+: 1399950481:0;cat cat.o
+: 1399950486:0;a
+: 1399950488:0;aaasdf
+: 1399950489:0;asdfkjasdfkl;asdfjkl
+: 1399950493:0;exit
+: 1399950518:0;cd ~/learningc/
+: 1399950519:0;ls
+: 1399950535:0;./wcl.o cat.o
+: 1399950541:0;./wc.o cat.o
+: 1399950552:0;./wc.o cat.c
+: 1399950556:0;./wcl.o cat.c
+: 1399950577:0;./wcl.o cat2.o
+: 1399950580:0;./wc.o cat2.o
+: 1399950591:0;less cat2.o
+: 1399950710:0;./wcl.o cat3.o
+: 1399950714:0;./wc.o cat3.o
+: 1399950717:0;./wc.o cat3.c
+: 1399950724:0;./wcl.o cat3.c
+: 1399951022:0;less ~/Downloads/LinuxProgramming-samples/wcl.c
+: 1399956823:0;vim wc.c
+: 1399957460:0;gcc -o wc.o wc.c
+: 1399957475:0;./wc.o wc.o
+: 1399957478:0;./wcl.o wc.o
+: 1399957570:0;git add .
+: 1399957573:0;git commit
+: 1399958932:0;git push origin master
+: 1399959434:0;wine
+: 1399959526:0;wine Downloads/kshootmania/kshootmania.exe
+: 1399959588:0;wine Downloads/kshootmania3/kshootmania.exe
+: 1399959594:0;wine Downloads/kshootmania 3/kshootmania.exe
+: 1399959621:0;wine Downloads/kshootmania\ 3/kshootmania.exe
+: 1399959748:0;winecfg
+: 1399959988:0;htop
+: 1399959990:0;top
+: 1399959995:0;brew install htop
+: 1399960041:0;wine Downloads/kshootmania\ 3/kshootmania.exe
+: 1399960106:0;htop
+: 1399972193:0;wine Downloads/kshootmania\ 3/kshootmania.exe
+: 1399972202:0;wine ~/Downloads/kshootmania\ 3/kshootmania.exe
+: 1399972283:0;exit
+: 1400033580:0;diskutil list
+: 1400033593:0;eject /dev/disk3
+: 1400033596:0;reject /dev/disk3
+: 1400040127:0;learningc/
+: 1400040133:0;vim head.c
+: 1400045105:0;gcc -o head.o head.c
+: 1400045110:0;vim head.c
+: 1400045124:0;gcc -o head.o head.c
+: 1400045156:0;./cat3.o head.c
+: 1400045204:0;./cat3.o head.c |./head.o 5
+: 1400045220:0;./cat3.o head.c |time ./head.o 5
+: 1400047464:0;git add .
+: 1400047467:0;git commit
+: 1400047509:0;./cat3.o head.c |./head.o 5
+: 1400047522:0;git push origin master
+: 1400052508:0;sudo pacman -S xmon
+: 1400052856:0;vim ~/.vimrc
+: 1400055977:0;vim head.c
+: 1400056915:0;gcc -o head.o head.c
+: 1400056928:0;./head.o 3 head.c
+: 1400057260:0;vim head.c
+: 1400057305:0;./head.o
+: 1400057335:0;vim head.c
+: 1400057400:0;gcc -o head.o head.c
+: 1400057403:0;./head.o
+: 1400082659:0;vim head.c
+: 1400166344:0;vim .vimrc
+: 1400166457:0;vim head.c
+: 1400166932:0;gcc -o head.o head.c
+: 1400166947:0;./head.o -a
+: 1400166952:0;./head.o -h
+: 1400166962:0;./head.o --help
+: 1400166972:0;vim head.c
+: 1400166984:0;./head.o -h
+: 1400166998:0;./head.o --help
+: 1400167008:0;./head.o -n
+: 1400167018:0;./head.o -n 5 head.c
+: 1400167050:0;./head.o -n=5 head.c
+: 1400167056:0;./head.o -n5 head.c
+: 1400167067:0;./head.o --lines==5 head.c
+: 1400167073:0;./head.o --lines=5 head.c
+: 1400167085:0;./head.o head.c --lines=5
+: 1400167151:0;gdb
+: 1400167158:0;brew install gdb
+: 1400167205:0;brew
+: 1400167212:0;brew install gcc
+: 1400167216:0;brew install gdb
+: 1400167262:0;gcc
+: 1400167514:0;llvm-gcc
+: 1400167525:0;llvm-gcc-4.8.2
+: 1400167533:0;llvm-gcc-4.8
+: 1400167572:0;brew
+: 1400167581:0;brew uninstall gcc
+: 1400167589:0;brew install gcc
+: 1400167796:0;clang
+: 1400167802:0;clang -o head.o head.c
+: 1400168402:0;lldb
+: 1400168419:0;vim head.c
+: 1400168444:0;gcc -o head.o head.c
+: 1400168456:0;./head.o head.c --lines=5
+: 1400168480:0;vim head.c
+: 1400168531:0;gcc -o head.o head.c
+: 1400168540:0;./head.o head.c -n 5
+: 1400168552:0;gcc -o -g head.o head.c
+: 1400168559:0;gcc -v
+: 1400168617:0;gcc -Wall -o -g head.o head.c
+: 1400168634:0;gcc -Wall -o -g head head.c
+: 1400168650:0;gcc -Wall -g -o  head head.c
+: 1400168660:0;lldb ./head
+: 1400169404:0;llvm-gcc
+: 1400169414:0;lllvm-gcc-4.8
+: 1400169419:0;llvm-gcc-4.8
+: 1400169423:0;llvm-gcc-4.8.2
+: 1400169441:0;gdb
+: 1400169587:0;cd Downloads/gdb-7.7/
+: 1400169593:0;./configure
+: 1400169634:0;lgcc-4.8
+: 1400169638:0;gcc-4.8
+: 1400169642:0;gcc-4.8.2
+: 1400169645:0;gcc-4.8
+: 1400169834:0;make
+: 1400170313:0;sudo make install
+: 1400170348:0;which gdb
+: 1400170350:0;gdb
+: 1400170988:0;gdb ./head
+: 1400171057:0;gcc-4.8 -o head.o head.c
+: 1400171065:0;gdb ./head.o
+: 1400171141:0;vim head.c
+: 1400171155:0;gcc-4.8 -o head.o head.c
+: 1400171173:0;vim ~/.zshrc
+: 1400171222:0;git add .
+: 1400171226:0;git commit
+: 1400171247:0;git push origin master
+: 1400171763:0;exit
+: 1400171776:0;vim cat3.o
+: 1400171780:0;vim cat3.c
+: 1400210270:0;gcc
+: 1400210281:0;source ~/.zshrc
+: 1400210284:0;gcc
+: 1400210295:0;gcc -o cat3.o cat3.c
+: 1400210306:0;vim cat3.c
+: 1400210459:0;gcc -o cat3.o cat3.c
+: 1400210474:0;vim cat3.c
+: 1400211369:0;gcc -o cat3.o cat3.c
+: 1400211393:0;vim cat3.c
+: 1400211848:0;gcc -o cat3.o cat3.c
+: 1400211851:0;learningc/
+: 1400211854:0;gcc -o cat3.o cat3.c
+: 1400211866:0;jj:13
+: 1400211903:0;gcc -o cat3.o cat3.c
+: 1400214915:0;wine ~/Downloads/kshootmania\ 3/kshootmania.exe 
+: 1400219121:0;less head.c
+: 1400229105:0;gcc -o cat3.o cat3.c
+: 1400229480:0;vim cat3.c
+: 1400229524:0;gcc -o cat3.o cat3.c
+: 1400229537:0;./cat3.o -t
+: 1400229548:0;./cat3.o -t cat.c
+: 1400229553:0;./cat3.o cat.c
+: 1400229563:0;git add .
+: 1400229566:0;git commit
+: 1400229578:0;git push origin master
+: 1400232256:0;cp wc.c tail.c
+: 1400232269:0;vim tail.c
+: 1400251740:0;./head.o -n
+: 1400251746:0;./head.o -n -5
+: 1400251824:0;gcc -o tail.o tail.c
+: 1400253674:0;vim tail.c
+: 1400253678:0;gcc -o tail.o tail.c
+: 1400253770:0;vim tail.c
+: 1400253779:0;gcc -o tail.o tail.c
+: 1400253853:0;clang -o tail.o tail.c
+: 1400254365:0;gcc -o tail.o tail.c
+: 1400254380:0;./tail.o -n
+: 1400254388:0;./tail.o -n 5 tail.c
+: 1400254413:0;./tail.o 5 tail.c
+: 1400254557:0;./tail.o --lines 5 tail.c
+: 1400254564:0;gcc -o tail.o tail.c
+: 1400254579:0;./tail.o --lines 5 tail.c
+: 1400254770:0;gcc -o tail.o tail.c
+: 1400254771:0;./tail.o --lines 5 tail.c
+: 1400254789:0;./tail.o --lines 5 cat.c
+: 1400254798:0;./tail.o -n 5 cat.c
+: 1400254833:0;brew install strace
+: 1400254862:0;dtruss
+: 1400254910:0;strace ./tail.o -n 5 cat.c >/dev/null
+: 1400254922:0;dtruss ./tail.o -n 5 cat.c >/dev/null
+: 1400255009:0;sudo dtruss ./tail.o -n 5 cat.c >/dev/null
+: 1400255122:0;dtruss
+: 1400255167:0;sudo dtruss -f ./tail.o -n 5 cat.c >/dev/null
+: 1400255173:0;dtruss
+: 1400255216:0;sudo dtruss -t open,read,write,close ./tail.o -n 5 cat.c >/dev/null
+: 1400255643:0;gcc -o tail.o tail.c
+: 1400255776:0;./tail.o -n 5 cat.c
+: 1400255836:0;gcc -Wall -g -o tail tail.c
+: 1400255889:0;gdb ./tail
+: 1400259144:0;cat ~/Downloads/LinuxProgramming-samples/tail.c
+: 1400259284:0;vim ~/.tmux.conf
+: 1400259427:0;exit
+: 1400259432:0;tmux
+: 1400259506:0;less Downloads/LinuxProgramming-samples/tail.c
+: 1400261868:0;learningc/
+: 1400261875:0;vim grep.c
+: 1400262428:0;brew tap phinze/homebrew-cask
+: 1400262461:0;brew install brew-cask
+: 1400333702:0;ln
+: 1400333735:0;ln -s /usr/local/bin/gcc-4.8 /usr/bin/gcc
+: 1400333750:0;/usr/bin/gcc
+: 1400333778:0;sudo rm /usr/bin/gcc
+: 1400333783:0;ln -s /usr/local/bin/gcc-4.8 /usr/bin/gcc
+: 1400333788:0;sudo ln -s /usr/local/bin/gcc-4.8 /usr/bin/gcc
+: 1400333795:0;cd
+: 1400333806:0;Downloads/gdb-7.7/
+: 1400333812:0;configure
+: 1400333823:0;make
+: 1400333871:0;sudo make install
+: 1400333979:0;cd ~/learningc/
+: 1400333980:0;ls
+: 1400333994:0;sudo gdb ./tail
+: 1400334210:0;codesign -s gdb-noroot `which gdb`
+: 1400334516:0;vim head.c
+: 1400334611:0;gcc -o head head.c
+: 1400334617:0;cd
+: 1400334621:0;learningc/
+: 1400334623:0;gcc -o head head.c
+: 1400334632:0;gcc -Wall -g -o head head.c
+: 1400334639:0;gdb ./head
+: 1400334661:0;sudo gdb ./head
+: 1400340664:0;e
+: 1400340670:0;which glibc
+: 1400340679:0;/Library/Graphics/
+: 1400340745:0;brew install glibc
+: 1400340957:0;sudo gdb ~/learningc/head
+: 1400341403:0;~/learningc/
+: 1400341415:0;gcc -g -O0
+: 1400341452:0;gcc -g -O0 head head.c
+: 1400341460:0;gcc -g -o head head.c
+: 1400341471:0;gdb ./head
+: 1400341492:0;sudo gdb ./head
+: 1400341608:0;./head -n 5
+: 1400341616:0;./head -n 5 head.c
+: 1400341652:0;gdb ./head
+: 1400341662:0;sudo gdb ./head
+: 1400341724:0;ssh momo2ro@157.7.202.57
+: 1400341749:0;scp
+: 1400341771:0;scp head momo2ro@157.7.202.57:
+: 1400341844:0;scp headl.c momo2ro@157.7.202.57:
+: 1400341857:0;scp head.c momo2ro@157.7.202.57:
+: 1400342877:0;vim head.c
+: 1400342902:0;git add .
+: 1400342908:0;git clone
+: 1400342912:0;git commit
+: 1400342931:0;ls
+: 1400342934:0;cat 2
+: 1400342939:0;ls
+: 1400342949:0;cat 2
+: 1400343034:0;diff 2 wc.c
+: 1400343040:0;diff
+: 1400343043:0;diff -h
+: 1400343046:0;diff --help
+: 1400343053:0;diff -f
+: 1400343056:0;diff -v
+: 1400343117:0;git commit
+: 1400343137:0;diff -v 2 wc.c
+: 1400343144:0;diff -f 2 wc.c
+: 1400343161:0;rm 2
+: 1400343168:0;ll
+: 1400343170:0;ls
+: 1400343193:0;rm *.dSYM
+: 1400343202:0;cd head.dSYM
+: 1400343203:0;ls
+: 1400343211:0;Contents/
+: 1400343211:0;ls
+: 1400343217:0;Resources/DWARF/
+: 1400343219:0;ls
+: 1400343221:0;head
+: 1400343227:0;./head
+: 1400343285:0;../../..
+: 1400343288:0;..
+: 1400343288:0;ls
+: 1400343298:0;rm *.dSYM
+: 1400343301:0;rm -r *.dSYM
+: 1400343308:0;y
+: 1400343312:0;ls
+: 1400343331:0;git commit
+: 1400343339:0;git add .
+: 1400343362:0;git add . --ignore-removal
+: 1400343365:0;git commit
+: 1400343402:0;git add .
+: 1400343413:0;git add --ignore-removal
+: 1400343419:0;git add . --ignore-removal
+: 1400343421:0;git commit
+: 1400343443:0;git push origin master
+: 1400343458:0;vim ~/.zshrc
+: 1400344722:0;vim grep.c
+: 1400345654:0;gcc -o grep.o grep.c
+: 1400345681:0;./grep.o do_grep grep.c
+: 1400345690:0;./grep.o do_.... grep.c
+: 1400345703:0;gia
+: 1400345710:0;source ~/.zshrc
+: 1400345712:0;gia
+: 1400345725:0;git add --all
+: 1400345730:0;git status
+: 1400345738:0;gic
+: 1400345751:0;gipo
+: 1400346622:0;vim grep.c
+: 1400346633:0;grep
+: 1400346638:0;grep --help
+: 1400346768:0;less head.c
+: 1400347368:0;gcc -o grep.o grep.c
+: 1400378918:0;vim grep.c
+: 1400378990:0;gcc -o grep.o grep.c
+: 1400379177:0;./grep.o -v stdio grep.c
+: 1400379184:0;./grep.o -v
+: 1400379197:0;./grep.o stdio grep.c
+: 1400379205:0;./grep.o -v stdio grep.c
+: 1400379415:0;gcc -o grep.o grep.c
+: 1400379417:0;./grep.o -v stdio grep.c
+: 1400379492:0;gcc -o grep.o grep.c
+: 1400379642:0;./grep.o -v stdio grep.c
+: 1400382459:0;./grep.o STDIO grep.c
+: 1400383048:0;gcc -o grep.o grep.c
+: 1400383053:0;./grep.o -i stdio grep.c
+: 1400383060:0;./grep.o -i STDIO grep.c
+: 1400383078:0;git add .
+: 1400383082:0;gic
+: 1400383092:0;gipo
+: 1400391936:0;vim ls.c
+: 1400392995:0;gcc -0 ls.o ls.c
+: 1400393005:0;gcc -o ls.o ls.c
+: 1400393023:0;./ls .
+: 1400393027:0;./ls.o .
+: 1400394146:0;vim mkdir.c
+: 1400394452:0;gcc -o mkdir.o mkdir.c
+: 1400394477:0;./mkdir.o tinpo
+: 1400394481:0;./ls.o
+: 1400394484:0;./ls.o .
+: 1400394493:0;ll
+: 1400394501:0;tinpo/
+: 1400394502:0;ls
+: 1400394504:0;..
+: 1400394506:0;rm tinpo/
+: 1400394516:0;gia
+: 1400394531:0;source ~/.zshrc
+: 1400394533:0;gia
+: 1400394535:0;gic
+: 1400394542:0;gipo
+: 1400394639:0;dtruss mkdir -p ./tinpo/tinpo
+: 1400394647:0;sudo dtruss mkdir -p ./tinpo/tinpo
+: 1400394706:0;sudo dtruss mkdir -p rm -r tinpo/
+: 1400394728:0;ls
+: 1400394743:0;sudo dtruss rm -r tinpo/
+: 1400394995:0;cp mkdir.c rmdir.c
+: 1400394998:0;vim rmdir.c
+: 1400395064:0;gcc -o rmdir.o rmdir.c
+: 1400395085:0;./mkdir.o 1
+: 1400395092:0;./rmdir.o 1
+: 1400395094:0;./mkdir.o 1
+: 1400395095:0;ls
+: 1400395097:0;./rmdir.o 1
+: 1400395098:0;ls
+: 1400395104:0;gia
+: 1400395106:0;gic
+: 1400395111:0;gipo
+: 1400395170:0;man rmdir
+: 1400395722:0;vim ln.c
+: 1400395961:0;gcc -o ln.o ln.c
+: 1400395975:0;cd
+: 1400395984:0;touch a
+: 1400396003:0;./ln.o ~/a b
+: 1400396005:0;ls
+: 1400396006:0;ll
+: 1400396023:0;rm b
+: 1400396027:0;rm ~/a
+: 1400396033:0;gia
+: 1400396034:0;gic
+: 1400396039:0;gipo
+: 1400399163:0;vim symlink.c
+: 1400399368:0;learningc/
+: 1400399375:0;gcc -o symlink.o symlink.c
+: 1400399469:0;./symlink.o symlink.o unti
+: 1400399470:0;ls
+: 1400399480:0;./unti unti manko
+: 1400399482:0;ll
+: 1400399493:0;ll |grep manko
+: 1400399502:0;rm manko unti
+: 1400399545:0;cp ln.c rm.c
+: 1400399549:0;vim rm.c
+: 1400399688:0;gcc -o rm.o rm.c
+: 1400399718:0;./mkdir.o a
+: 1400399726:0;ls
+: 1400399742:0;./rm.o a
+: 1400399751:0;sudo ./rm.o a
+: 1400399760:0;touch a
+: 1400399763:0;ls
+: 1400399767:0;touch b
+: 1400399769:0;ls
+: 1400399774:0;./rm.o b
+: 1400400038:0;mkdir a
+: 1400400041:0;ll
+: 1400400049:0;ll |grep a
+: 1400400054:0;ll |grep "a"
+: 1400400057:0;ll |grep "a "
+: 1400400062:0;ll |grep "a\ "
+: 1400400070:0;rm a
+: 1400400077:0;rmdir a
+: 1400400084:0;cat rmdir.c
+: 1400400141:0;gia
+: 1400400142:0;gic
+: 1400400148:0;gipo
+: 1400400197:0;./mkdir.o a
+: 1400400201:0;./rm.o a
+: 1400400217:0;sudo ./rm.o a
+: 1400400245:0;cp ln.c mv.c
+: 1400400249:0;vim mv.c
+: 1400400287:0;gcc -o mv.o mv.c
+: 1400400298:0;./mv.o mv.c move.c
+: 1400400299:0;ls
+: 1400400311:0;./mv.o move.c mv.c
+: 1400401526:0;vim ~/.uim.d/customs/custom-anthy-keys2.scm
+: 1400401664:0;vim ~/.Xmodmap
+: 1400401792:0;xev
+: 1400401814:0;xmodmap ~/.Xmodmap
+: 1400401816:0;xev
+: 1400402585:0;brew install ctorrent
+: 1400402639:0;ctorrent
+: 1400402658:0;ctorrent ~/Downloads/Fate\ Extra\ \[JAP\]\[PSP\].torrent
+: 1400402776:0;ctorrent ~/Downloads/Fate+Extra+\[JAP\]\[PSP\].torrent
+: 1400412240:0;cd
+: 1400412246:0;ruby mikutter/mikutter.rb
+: 1400412290:0;cd
+: 1400412296:0;mkdir .xinitrc.d/
+: 1400412300:0;.xinitrc.d/
+: 1400412301:0;ls
+: 1400412314:0;ll
+: 1400412351:0;cd
+: 1400412355:0;vim .zshrc
+: 1400424529:0;sudoedit /System/Library/Filesystems/fuse-ext2.fs/fuse-ext2.util
+: 1400424537:0;brew install sudoedit
+: 1400424554:0;sudo vim /System/Library/Filesystems/fuse-ext2.fs/fuse-ext2.util
+: 1400567393:0;learningc/
+: 1400567521:0;vim stat.c
+: 1400853550:0;ruby mikutter/mikutter.rb
+: 1400857444:0;vim chmod.c
+: 1400858847:0;learningc/
+: 1400858855:0;gcc -o chmod.o chmod.c
+: 1400858895:0;./mkdir.o a
+: 1400858900:0;ll
+: 1400858904:0;ll |grep a
+: 1400858911:0;ll |grep "a "
+: 1400858920:0;ll |grep a
+: 1400858942:0;./chmod.o 777 a
+: 1400858944:0;ll |grep a
+: 1400858956:0;rm a
+: 1400858967:0;./rmdir.o a
+: 1400858969:0;gia
+: 1400859020:0;gic
+: 1400859031:0;ls
+: 1400859038:0;rm Fate\ Extra\ \[JAP\]\[PSP\]/
+: 1400859045:0;rm -r Fate\ Extra\ \[JAP\]\[PSP\]/
+: 1400859058:0;ls
+: 1400859060:0;rm -r Fate\ Extra\ \[JAP\]\[PSP\]/
+: 1400859071:0;yes |rm -r Fate\ Extra\ \[JAP\]\[PSP\]/
+: 1400859075:0;gia
+: 1400859083:0;gia -all
+: 1400859088:0;git add -all
+: 1400859091:0;git add -all .
+: 1400859100:0;gia --all
+: 1400859104:0;gic
+: 1400859117:0;gipo
+: 1400860848:0;cd
+: 1400860857:0;Downloads/LinuxProgramming-samples/
+: 1400860858:0;ls
+: 1400860885:0;less traverse.c
+: 1400860966:0;exit
+: 1400906444:0;/usr/bin/ruby
+: 1400906448:0;/usr/bin/ruby -v
+: 1400994859:0;brew install winetricks
+: 1400994895:0;winetricks
+: 1400994923:0;winetricks zenity
+: 1400994959:0;brew install zenity
+: 1400995454:0;winetricks
+: 1400995551:0;winetricks dotnet40
+: 1400995643:0;brew install wine-mono
+: 1400995766:0;wine Downloads/kanbura/Kanbura.exe
+: 1400995856:0;winetricks dotnet40
+: 1400995972:0;wine Downloads/kanbura/Kanbura.exe
+: 1400996243:0;wine Downloads/dffsetup-mscoree.exe
+: 1400996549:0;defaults write com.apple.finder AppleShowAllFiles TRUE
+: 1400996559:0;killall Finder
+: 1400996713:0;wine Downloads/kanbura/Kanbura.exe
+: 1400996743:0;winetricks dotnet40
+: 1400996827:0;winetricks --force dotnet40
+: 1400997191:0;wine control
+: 1400997700:0;rm -r .wine/
+: 1400997706:0;yes |rm -r .wine/
+: 1400997712:0;winecfg
+: 1400997838:0;winetricks --force dotnet40
+: 1400997948:0;wine Downloads/kanbura/Kanbura.exe
+: 1400998478:0;java
+: 1400998480:0;java -v
+: 1400998486:0;java --version
+: 1400998495:0;java -version
+: 1400998714:0;java -XstartOnFirstThread -jar logbook.jar
+: 1400998752:0;java -XstartOnFirstThread -jar Downloads/macosx-x64/logbook.jar
+: 1400998816:0;javac -version
+: 1400998834:0;brew install jdk7
+: 1400998837:0;brew install jdk
+: 1400999645:0;homesick
+: 1400999670:0;homesick clone git@github.com:jigish/dotfiles
+: 1400999734:0;homesick commit
+: 1400999746:0;homesick push
+: 1400999771:0;homesick commit
