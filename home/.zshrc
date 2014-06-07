@@ -1,37 +1,21 @@
 # Created by newuser for 4.3.9
 
-#=============================================
-# General Config
-#=============================================
-
-#vimを好きになりましょう
 export EDITOR=vim
-
-#文字コードをUTF-8に設定
 export LANG=ja_JP.UTF-8
-
-#キーバインドをviモードに設定
 bindkey -v
-
-#ビープ音カット
 setopt NO_BEEP
-
 #バックグラウンドジョブの状態変化を即時報告する
 setopt NOTIFY
-
 #=commandを`which command`と同じ処理にする
 setopt EQUALS
-
 #プロンプトの設定
 if [ -z "$debian_chroot" ] && [ -r /etc/debian_chroot ]; then
     debian_chroot=$(</etc/debian_chroot)
 fi
 
 PROMPT="${debian_chroot:+($debian_chroot)}%n@%m:%c%# "
-
 #lesspipe
 eval "$(lesspipe.sh)"
-
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 
 export XMODIFIERS="@im=uim"
@@ -205,9 +189,8 @@ alias gipo='git push origin master'
 #fi
 ##-azfu-非表示
 #zstyle ':auto-fu:var' postdisplay $''
-#=============================
+
 # tmux (auto start)
-#=============================
 if [ -z "$TMUX" -a -z "$STY" ]; then
     if type tmuxx >/dev/null 2>&1; then
             tmuxx
@@ -221,3 +204,18 @@ if [ -z "$TMUX" -a -z "$STY" ]; then
             screen -rx || screen -D -RR
         fi
 fi
+
+# Setup zsh-autosuggestions
+source ~/.zsh-autosuggestions/autosuggestions.zsh
+
+# Enable autosuggestions automatically
+zle-line-init() {
+        zle autosuggest-start
+}
+zle -N zle-line-init
+
+# use ctrl+t to toggle autosuggestions(hopefully this wont be needed as
+# zsh-autosuggestions is designed to be unobtrusive)
+bindkey '^T' autosuggest-toggle
+# Accept suggestions without leaving insert mode
+bindkey '^f' vi-forward-word

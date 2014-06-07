@@ -1400,3 +1400,63 @@
 : 1400999734:0;homesick commit
 : 1400999746:0;homesick push
 : 1400999771:0;homesick commit
+: 1402133364:15;homesick clone momo2ro/dotfiles
+: 1402133384:0;pwd
+: 1402133398:6;homesick symlink dotfiles
+: 1402134636:0;source .zshrc
+: 1402134745:0;git config --list
+: 1402134750:0;git config
+: 1402134753:0;git config -l
+: 1402134837:0;homesick list
+: 1402134858:0;homesick help
+: 1402134974:0;homesick clone git@github.com:tarruda/zsh-autosuggestions
+: 1402134997:0;homesick symlinks
+: 1402135000:0;homesick symlink
+: 1402135196:0;.homesick
+: 1402135198:0;ls
+: 1402135203:0;repos/
+: 1402135204:0;ls
+: 1402135208:0;dotfiles/home/
+: 1402135208:0;ls
+: 1402139229:0;mkcd ~/.zsh-autosuggestions
+: 1402139294:0;mkdir bin
+: 1402139304:0;vim bin/mkcd.sh
+: 1402139370:0;chmod 755 bin/mkcd.sh
+: 1402139378:0;mkcd ~/.zsh-autosuggestions
+: 1402139399:0;cd
+: 1402139401:0;mkcd ~/.zsh-autosuggestions
+: 1402139424:0;cd -
+: 1402139441:0;ls
+: 1402139449:0;mv bin ~
+: 1402139454:0;cd
+: 1402139458:0;mkcd ~/.zsh-autosuggestions
+: 1402139811:0;git clone git://github.com/tarruda/zsh-autosuggestions
+: 1402139817:0;cd
+: 1402139838:0;cat .zshrc
+: 1402139845:0;vim .zshrc
+: 1402140058:0;source .zshrc
+: 1402140083:0;.zsh-autosuggestions/
+: 1402140084:0;ls
+: 1402140094:0;cd zsh-autosuggestions/
+: 1402140095:0;ls
+: 1402140105:0;vim .zshrc
+: 1402140111:0;vim ~/.zshrc
+: 1402140175:0;..
+: 1402140177:0;ls
+: 1402140184:0;rm -r *
+: 1402140191:0;rm -r *\
+
+: 1402140200:0;yes |rm -r *\
+
+: 1402140224:0;git clone git://github.com/tarruda/zsh-autosuggestions .
+: 1402140226:0;ls
+: 1402140272:0;cd
+: 1402140278:0;source .zshrc
+: 1402140278:0;source '/home/momo2ro/.zsh-autosuggestions/completion-server-init.zsh'
+: 1402140738:0;rm .zsh-autosuggestions/
+: 1402140851:0;ln -s .zsh-autosuggestions/ .homesick/repos/dotfiles/home/
+: 1402140863:0;ln -s bin/ .homesick/repos/dotfiles/home/
+: 1402140870:0;homesick commit
+: 1402140906:0;git config --global user.email "mpwf.fwbohfmjpo.1904@gmail.com"
+: 1402140928:0;git config --global user.name "momo2ro"
+: 1402140930:0;homesick commit
