@@ -1460,3 +1460,128 @@
 : 1402140906:0;git config --global user.email "mpwf.fwbohfmjpo.1904@gmail.com"
 : 1402140928:0;git config --global user.name "momo2ro"
 : 1402140930:0;homesick commit
+: 1402140958:0;homesick push
+: 1402141077:0;pacman -S enlightenment
+: 1402143094:0;packer -Ss enlightenment
+: 1402143132:0;packer -Ss enlightenment-git
+: 1402143142:0;packer -S enlightenment-git
+: 1402148699:0;start
+: 1402148713:0;startx
+: 1402148735:0;pacman -S xorg-server
+: 1402148815:0;pacman -S xorg-xinit 
+: 1402148848:0;pacman -S xorg-twm 
+: 1402148862:0;pacman -S xorg-xclock xterm 
+: 1402148874:0;startx 
+: 1402148981:0;modprobe -a vboxguest vboxsf vboxvideo
+: 1402149004:0;pacman -S virtualbox-guest-utils 
+: 1402149010:0;modprobe -a vboxguest vboxsf vboxvideo
+: 1402149017:0;sudo modprobe -a vboxguest vboxsf vboxvideo
+: 1402149216:0;packer -Syu
+: 1402149663:0;sudo modprobe -a vboxguest vboxsf vboxvideo
+: 1402149693:0;sudoedit /etc/modules-load.d/virtualbox.conf 
+: 1402149700:0;startx
+: 1402149975:0;sl
+: 1402149983:0;pacman -S sl
+: 1402150002:0;lo
+: 1402150006:0;loadkeys jp106
+: 1402150014:0;exit
+: 1402150073:0;enlightenment
+: 1402150155:0;vim .xinitrc 
+: 1402150376:0;startx
+: 1402150405:0;cat /var/log/Xorg.0.log
+: 1402150437:0;cat /var/log/Xorg.0.log |grep {EE,WW}
+: 1402150443:0;cat /var/log/Xorg.0.log |grep EE
+: 1402150712:0;packer -Ss packer-zsh
+: 1402150716:0;packer -Ss packer-zs
+: 1402150724:0;packer -Ss zsh-packer
+: 1402150733:0;packer -S zsh-packer
+: 1402150814:0;source .zshrc 
+: 1402150898:0;lynx http://pastebin.com/HYQWxuMu
+: 1402150979:0;lynx http://google.com
+: 1402151114:0;sudo reboot
+: 1402151171:0;source '/home/momo2ro/.zsh-autosuggestions/completion-server-init.zsh'
+: 1402151190:0;lynx http://pastebin.com/HYQWxuMu
+: 1402151255:0;mv HYQWxuMu.txt\; /usr/share/zsh/site-functions/_packer
+: 1402151261:0;sudo mv HYQWxuMu.txt\; /usr/share/zsh/site-functions/_packer
+: 1402151284:0;exit
+: 1402151346:0;sudoedit /usr/share/zsh/site-functions/_packer 
+: 1402151811:0;vim zImage
+: 1402151824:0;sudo rm /usr/share/zsh/site-functions/_packer 
+: 1402152088:0;startx 
+: 1402152178:0;packer -S richy
+: 1402152189:0;packer -S ritcy
+: 1402152203:0;packer -Ss ri
+: 1402152238:0;packer -S ricty
+: 1402152265:0;packer -S ttf-ricty
+: 1402162474:0;source '/home/momo2ro/.zsh-autosuggestions/completion-server-init.zsh'
+: 1402162478:0;startx 
+: 1402162913:0;sudo pacman -S rxvt-unicode
+: 1402163111:0;sudoedit /etc/pacman.conf 
+: 1402163363:0;packer -S vboxhost-hook
+: 1402163466:0;sudo systemctl  enable vboxservice.service
+: 1402163474:0;sudo systemctl  start vboxservice.service
+: 1402184948:0;vim .xinitrc 
+: 1402184990:0;sudo groupadd vboxsf
+: 1402184998:0;gpasswd -a momo2ro vboxsf
+: 1402185003:0;sudo gpasswd -a momo2ro vboxsf
+: 1402186644:0;sudo reboot 
+: 1402186743:0;source '/home/momo2ro/.zsh-autosuggestions/completion-server-init.zsh'
+: 1402186757:0;packer -S entrance-git
+: 1402186910:0;sudo systemctl enable entrance.service
+: 1402186928:0;sudo systemctl start entrance.service
+: 1402187187:0;source '/home/momo2ro/.zsh-autosuggestions/completion-server-init.zsh'
+: 1402187202:0;sudo systemctl disable entrance.service 
+: 1402187227:0;sudo systemctl stop entrance.service 
+: 1402187238:0;sudo reboot
+: 1402187283:0;source '/home/momo2ro/.zsh-autosuggestions/completion-server-init.zsh'
+: 1402187303:0;sudoedit /etc/entrance/entrance.conf 
+: 1402187421:0;sudo systemctl enable entrance.service 
+: 1402187429:0;sudo systemctl start  entrance.service 
+: 1402187460:0;sudo systemctl stop entrance.service 
+: 1402187466:0;sudo systemctl disable entrance.service 
+: 1402187470:0;sudo reboot
+: 1402187533:0;source '/home/momo2ro/.zsh-autosuggestions/completion-server-init.zsh'
+: 1402187546:0;sudo pacman -Rsc entrance-git 
+: 1402187672:0;pacman -S lightdm 
+: 1402187749:0;packer -S lightdm-unity-greeter
+: 1402187836:0;packer -S lightdm-webkit-greeter
+: 1402188680:0;sudoedit /etc/lightdm/lightdm.conf 
+: 1402188736:0;sudo systemctl enable lightdm.service
+: 1402188745:0;lightdm --test-mode --debug
+: 1402188784:0;sudo re
+: 1402188791:0;sudo reboot
+: 1402191112:0;source '/home/momo2ro/.zsh-autosuggestions/completion-server-init.zsh'
+: 1402191125:0;sudo systemctl disable lightdm.service
+: 1402191131:0;sudo reboot
+: 1402191238:0;source '/home/momo2ro/.zsh-autosuggestions/completion-server-init.zsh'
+: 1402191241:0;startx
+: 1402191352:0;sudo systemctl start vboxservice.service
+: 1402191366:0;date
+: 1402191936:0;source '/home/momo2ro/.zsh-autosuggestions/completion-server-init.zsh'
+: 1402191938:0;startx 
+: 1402191983:0;sudo systemctl start vboxservice.service
+: 1402191998:0;sudo systemctl stop vboxservice.service
+: 1402192000:0;sudo systemctl start vboxservice.service
+: 1402192140:0;source '/home/momo2ro/.zsh-autosuggestions/completion-server-init.zsh'
+: 1402192151:0;sudo systemctl disable vboxservice.service
+: 1402192162:0;sudo reboot 
+: 1402224601:0;source '/home/momo2ro/.zsh-autosuggestions/completion-server-init.zsh'
+: 1402224609:0;sudo systemctl start vboxservice.service
+: 1402192217:0;date
+: 1402192270:0;ln /usr/share/zoneinfo/Asia/Tokyo /etc/localtime 
+: 1402192279:0;ln -s /usr/share/zoneinfo/Asia/Tokyo /etc/localtime 
+: 1402192289:0;rm /etc/localtime 
+: 1402192295:0;ln -s /usr/share/zoneinfo/Asia/Tokyo /etc/localtime 
+: 1402192304:0;sudo rm /etc/localtime 
+: 1402192305:0;ln -s /usr/share/zoneinfo/Asia/Tokyo /etc/localtime 
+: 1402192311:0;sudo ln -s /usr/share/zoneinfo/Asia/Tokyo /etc/localtime 
+: 1402192332:0;strings /etc/localtime 
+: 1402192336:0;date
+: 1402192342:0;startx 
+: 1402192387:0;pacman -S firefox
+: 1402192446:0;vim .Xdefaults 
+: 1402192837:0;source .Xdefaults 
+: 1402192882:0;urxvt -tr -sh 20
+: 1402192956:0;vim .Xdefaults 
+: 1402193104:0;ls
+: 1402193121:0;homesick commit
