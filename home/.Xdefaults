@@ -28,7 +28,7 @@ URxvt.lineSpace:            0
 
 ! Fonts
 URxvt.allow_bold:           false
-URxvt*font: xft:Ricty:pixelsize=24
+URxvt*font: xft:Ricty:pixelsize=15
 
 ! Fix font space
 URxvt*letterSpace: -1

@@ -4,6 +4,7 @@ export EDITOR=vim
 export LANG=ja_JP.UTF-8
 bindkey -v
 setopt NO_BEEP
+setopt HIST_IGNORE_ALL_DUPS
 #バックグラウンドジョブの状態変化を即時報告する
 setopt NOTIFY
 #=commandを`which command`と同じ処理にする
@@ -160,7 +161,7 @@ alias mpg123='mpg123 -vC'
 alias synaptic='sudo synaptic'
 alias apt-get='sudo apt-get'
 alias aptitude='sudo aptitude'
-alias pacman='sudo pacman'
+alias pacman -S='packer -S'
 alias ls='ls -a --color=auto'
 alias ll='ls -alh --color=auto'
 alias v='vim'
@@ -169,7 +170,7 @@ alias cp='cp -i'
 alias rm='rm -i'
 alias w3m='w3m http://google.com'
 alias mkcd='source $HOME/bin/mkcd.sh'
-alias gcc='gcc-4.8'
+#alias gcc='gcc-4.9'
 alias gia='git add .'
 alias gic='git commit'
 alias gipo='git push origin master'
