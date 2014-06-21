@@ -29,7 +29,7 @@ set history=500
 set runtimepath=~/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim72,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,~/.vim/after
 
 set swapfile
-set directory=$HOME/.vim/swap
+set directory=$HOME/.vimswap
 
 "インクリメンタルサーチを有効にする
 set incsearch
@@ -151,8 +151,9 @@ set statusline+=[%p%%]
 if has('unix')
     set fileformat=unix
     set fileformats=unix,dos,mac
-    set fileencoding=utf-8
     set fileencodings=utf-8,iso-2022-jp,cp932,euc-jp
+    set fileencoding=utf-8
+    set encoding=utf-8
     set termencoding=
     elseif has('win32')
     set fileformat=dos

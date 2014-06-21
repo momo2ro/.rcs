@@ -132,7 +132,7 @@ bindkey "^[[Z" reverse-menu-complete
 #=============================================
 
 #ヒストリーサイズ設定
-HISTFILE=$HOME/.zsh/history
+HISTFILE=$HOME/.zsh_history
 HISTSIZE=1000000
 SAVEHIST=1000000
 PATH=${PATH}:~/bin
