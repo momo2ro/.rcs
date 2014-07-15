@@ -174,6 +174,7 @@ alias mkcd='source $HOME/bin/mkcd.sh'
 alias gia='git add .'
 alias gic='git commit'
 alias gipo='git push origin master'
+alias gco='gcc -o'
 
 
 #=============================
@@ -207,16 +208,16 @@ if [ -z "$TMUX" -a -z "$STY" ]; then
 fi
 
 # Setup zsh-autosuggestions
-source ~/.zsh-autosuggestions/autosuggestions.zsh
+#source ~/.zsh-autosuggestions/autosuggestions.zsh
 
 # Enable autosuggestions automatically
-zle-line-init() {
-        zle autosuggest-start
-}
-zle -N zle-line-init
+#zle-line-init() {
+#        zle autosuggest-start
+#}
+#zle -N zle-line-init
 
 # use ctrl+t to toggle autosuggestions(hopefully this wont be needed as
 # zsh-autosuggestions is designed to be unobtrusive)
-bindkey '^T' autosuggest-toggle
+#bindkey '^T' autosuggest-toggle
 # Accept suggestions without leaving insert mode
-bindkey '^f' vi-forward-word
+#bindkey '^f' vi-forward-word
