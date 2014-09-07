@@ -13,6 +13,9 @@ import System.Exit
 import XMonad.Hooks.DynamicLog --xmobarにステータスを送信
 import XMonad.Hooks.ManageDocks
 import XMonad.Util.Run                  -- spawnPipe, hPutStrLn
+import XMonad.Layout.Maximize
+import XMonad.Layout.Minimize
+import XMonad.Layout.NoBorders
 
 import qualified XMonad.StackSet as W
 import qualified Data.Map        as M
@@ -35,7 +38,7 @@ myBorderWidth   = 2
 -- ("right alt"), which does not conflict with emacs keybindings. The
 -- "windows key" is usually mod4Mask.
 --
-myModMask       = mod3Mask
+myModMask       = mod4Mask
 
 -- The mask for the numlock key. Numlock status is "masked" from the
 -- current modifier status, so the keybindings will work with numlock on or
@@ -199,7 +202,7 @@ myMouseBindings (XConfig {XMonad.modMask = modm}) = M.fromList $
 -- The available layouts.  Note that each layout is separated by |||,
 -- which denotes layout choice.
 --
-myLayout = avoidStruts $ tiled ||| Mirror tiled ||| Full
+myLayout = (smartBorders $ avoidStruts $ maximize $ minimize (tiled ||| Mirror tiled)) ||| (noBorders Full)
   where
      -- default tiling algorithm partitions the screen into two panes
      tiled   = Tall nmaster delta ratio
@@ -274,7 +277,9 @@ main = do
 -- xmobarを起動させる
 myStatusBar <- spawnPipe "xmobar"
  -- trayer
-spawn "trayer --edge top --align right --SetDockType true --SetPartialStrut false --expand true --width 24 --transparent true --tint 0x000000 --height 19"
+-- spawn "trayer --edge top --align right --SetDockType true --SetPartialStrut false --expand true --width 15 --transparent true --tint 0x000000 --height 19"
+--stalonetray
+spawn "stalonetray --slot-size 15 --geometry 6x1-0+0 -bg \"#000000\" -i 16 --grow-gravity SW --icon-gravity SE"
 -- 無線の設定
 spawn "nm-applet"
 -- GNOMEのデーモンを起動
@@ -283,10 +288,11 @@ spawn "gnome-autosetting-daemon"
 spawn "gnome-power-manager"
 -- 音量管理
 spawn "gnome-sound-properties"
--- xmodmap
-spawn "xmodmap $HOME/.Xmodmap"
 -- urxvtd
 spawn "urxvtd -q -f -o"
+spawn "dropboxd"
+spawn "skype"
+spawn "blueman-applet"
 -- A structure containing your configuration settings, overriding
 -- fields in the default config. Any you don't override, will
 -- use the defaults defined in xmonad/XMonad/Config.hs

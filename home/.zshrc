@@ -157,15 +157,21 @@ bindkey "^N" history-beginning-search-forward-end
 # Aliases
 #=============================================
 alias su='sudo -i'
+alias sd='sudo '
+alias visudo='sudo visudo'
+alias sded='export EDITOR=vim; sudoedit'
 alias mpg123='mpg123 -vC'
 alias synaptic='sudo synaptic'
 alias apt-get='sudo apt-get'
 alias aptitude='sudo aptitude'
-alias pacman -S='packer -S'
+alias pcm='sudo pacman'
+alias pcr='packer'
+alias pwr='sudo poweroff'
+alias rbt='sudo reboot'
 alias ls='ls -a --color=auto'
 alias ll='ls -alh --color=auto'
 alias v='vim'
-alias less='less -N'
+alias less='lv'
 alias cp='cp -i'
 alias rm='rm -i'
 alias w3m='w3m http://google.com'
@@ -175,6 +181,9 @@ alias gia='git add .'
 alias gic='git commit'
 alias gipo='git push origin master'
 alias gco='gcc -o'
+alias tmux-changekey='tmux set-option -ag prefix C-b'
+alias tmux-revertkey='tmux set-option -ag prefix C-s'
+alias amx="alsamixer"
 
 
 #=============================
@@ -221,3 +230,4 @@ fi
 #bindkey '^T' autosuggest-toggle
 # Accept suggestions without leaving insert mode
 #bindkey '^f' vi-forward-word
+screenfetch
