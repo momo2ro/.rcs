@@ -170,6 +170,7 @@ endif
 " Key Config
 "=============================================
 
+imap <c-k> <esc>
 "<S-s>で.vimrc再読み込み
 map S :source $HOME/.vimrc<CR>
 

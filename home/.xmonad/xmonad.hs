@@ -78,6 +78,7 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
 
     -- launch a terminal
     [ ((modm .|. shiftMask, xK_Return), spawn $ XMonad.terminal conf)
+    , ((modm .|. shiftMask, xK_colon ), spawn $ XMonad.terminal conf)
 
     -- launch dmenu
     , ((modm,               xK_p     ), spawn "exe=`dmenu_path | dmenu -b -fn xft:Ricty:pixelsize=18 -nb black -nf white -sb red -sf black` && eval \"exec $exe\"")
@@ -86,14 +87,14 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     , ((modm .|. shiftMask, xK_p     ), spawn "gmrun")
 
     -- launch firefox
-    , ((modm,		    xK_f     ), spawn "firefox")
+    , ((modm,               xK_f     ), spawn "firefox")
     -- launch mikutter
     , ((modm .|. shiftMask, xK_m     ), spawn "mikutter")
     -- printscreen and edit
-    , ((modm,		    xK_s     ), spawn "mtpaint -s")
+    , ((modm,               xK_s     ), spawn "mtpaint -s")
 
     -- close focused window
-    , ((modm .|. shiftMask, xK_d     ), kill)
+    , ((modm,               xK_d     ), kill)
 
      -- Rotate through the available layout algorithms
     , ((modm,               xK_space ), sendMessage NextLayout)
@@ -118,6 +119,7 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
 
     -- Swap the focused window and the master window
     , ((modm,               xK_Return), windows W.swapMaster)
+    , ((modm,               xK_colon ), windows W.swapMaster)
 
     -- Swap the focused window with the next window
     , ((modm .|. shiftMask, xK_j     ), windows W.swapDown  )
