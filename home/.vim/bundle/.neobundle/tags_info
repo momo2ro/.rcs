@@ -1,0 +1,7 @@
+lightline.vim
+neobundle.vim
+nerdtree
+tcomment_vim
+vim-autoclose
+vim-indent-guides
+vim-trailing-whitespace
