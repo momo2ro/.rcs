@@ -98,3 +98,5 @@ map S :source $HOME/.vimperatorrc<CR>
 qmark j java
 qmark p javascript:(function() {var d = document;var u = location.href;var f = d.createElement('form');f.action = 'http://www.ascii2d.net/imagesearch/search';f.method = 'post';f.name = 'myform';f.id = 'myform';var i = d.createElement('input');i.type = 'hidden';i.name = 'uri';i.value = u;f.appendChild(i);d.body.appendChild(f);d.getElementById('myform').submit();})(); 
 qmark h javascript:(function(){var%20d=(new%20Date);var%20s=document.createElement('script');s.charset='UTF-8';s.src='http://b.hatena.ne.jp/js/Hatena/Bookmark/let.js?'+d.getFullYear()+d.getMonth()+d.getDate();(document.getElementsByTagName('head')[0]||document.body).appendChild(s);})();
+qmark m miteru
+qmark a android

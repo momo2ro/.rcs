@@ -184,6 +184,7 @@ alias gco='gcc -o'
 alias tmux-changekey='tmux set-option -ag prefix C-b'
 alias tmux-revertkey='tmux set-option -ag prefix C-s'
 alias amx="alsamixer"
+alias kitkat='emulator64-x86 -avd android-4.4-x86 -qemu -m 2048 -enable-kvm'
 
 
 #=============================
