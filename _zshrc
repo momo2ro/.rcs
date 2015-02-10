@@ -1,0 +1,213 @@
+# General Config {{{1
+
+export EDITOR=vim
+export LANG=ja_JP.UTF-8
+bindkey -v
+setopt NO_BEEP
+setopt HIST_IGNORE_ALL_DUPS
+setopt NOTIFY
+#=commandを`which command`と同じ処理にする
+setopt EQUALS
+eval "$(lesspipe.sh)"
+export PATH="$PATH:/usr/local/opt/coreutils/libexec/gnubin:$HOME/local/bin:/opt/urserver"
+PROMPT="%K{green}%F{black}%n%f@%F{black}%m%f:%F{black}%~%f%k %# "
+if [[ -r /usr/lib/python3.4/site-packages/powerline/bindings/zsh/powerline.zsh ]]; then
+    source /usr/lib/python3.4/site-packages/powerline/bindings/zsh/powerline.zsh
+fi
+
+# Completion Config {{{1
+
+# 補完機能を使用する {{{2
+
+setopt   auto_list auto_param_slash list_packed rec_exact
+unsetopt list_beep
+zstyle ':completion:*' format '%F{white}%d%f'
+zstyle ':completion:*' group-name ''
+zstyle ':completion:*' keep-prefix
+autoload -U compinit promptinit
+compinit
+zstyle ':completion::complete:*' use-cache true
+#zstyle ':completion:*:default' menu select true
+zstyle ':completion:*:default' menu select=1
+#autoload -Uz compinit && compinit
+#compinit
+#zstyle ':completion:*' menu select
+#zstyle ':completion:*:cd:*' ignore-parents parent pwd
+#zstyle ':completion:*:descriptions' format '%BCompleting%b %U%d%u'
+#
+#typeset -ga chpwd_functions
+#
+##chpwd_recent_dirsでセッションと無関係にディレクトリ補完(>=4.3.11)
+#autoload -U chpwd_recent_dirs cdr
+#chpwd_functions+=chpwd_recent_dirs
+#zstyle ":chpwd:*" recent-dirs-max 500
+#zstyle ":chpwd:*" recent-dirs-default true
+#zstyle ":completion:*" recent-dirs-insert always
+
+# }}}2
+
+# 大文字、小文字を区別せず補完する
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+#補完でカラーを使用する
+autoload colors
+zstyle ':completion:*' list-colors "${LS_COLORS}"
+#kill の候補にも色付き表示
+zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([%0-9]#)*=0=01;31'
+#コマンドにsudoを付けても補完
+zstyle ':completion:*:sudo:*' command-path /usr/local/sbin /usr/local/bin /usr/sbin /usr/bin /sbin /bin /usr/X11R6/bin
+# 予測入力させる {{{2
+
+autoload pblackict-on
+zle -N pblackict-on
+zle -N pblackict-off
+bindkey '^X^P' pblackict-on
+bindkey '^O' pblackict-off
+zstyle ':pblackict' verbose true
+
+# 入力途中の履歴補完を有効化する {{{2
+autoload history-search-end
+zle -N history-beginning-search-backward-end history-search-end
+zle -N history-beginning-search-forward-end history-search-end
+
+# 入力途中の履歴補完 {{{2
+
+bindkey "^P" history-beginning-search-backward-end
+bindkey "^N" history-beginning-search-forward-end
+
+# インクリメンタルサーチの設定 {{{2
+
+bindkey "^R" history-incremental-search-backward
+bindkey "^S" history-incremental-search-forward
+
+# 履歴のインクリメンタル検索でワイルドカード利用可能 {{{2
+
+bindkey '^R' history-incremental-pattern-search-backward
+bindkey '^S' history-incremental-pattern-search-forward
+
+# }}}2
+#タブキーの連打で自動的にメニュー補完
+setopt AUTO_MENU
+#/foo/barでいきなりcd
+setopt AUTO_CD
+cdpath=(.. $HOME $HOME/download)
+#cd時にディレクトリスタックにpush
+setopt AUTO_PUSHD
+#コマンドのスペルを訂正
+setopt CORRECT
+#=以降も補完する(--prefix=/usrなど)
+setopt MAGIC_EQUAL_SUBST
+#"~$var" でディレクトリにアクセス
+setopt AUTO_NAME_DIRS
+#補完が/で終って、つぎが、語分割子か/かコマンドの後(;とか&)だったら、補完末尾の/を取る
+unsetopt AUTO_REMOVE_SLASH
+#補完候補を一覧表示
+setopt AUTO_LIST
+#変数名を補完する
+setopt AUTO_PARAM_KEYS
+#補完候補の表示領域を小さく
+setopt LIST_PACKED
+#補完候補にファイルの種類も表示
+setopt LIST_TYPES
+#Shift-Tabで補完候補を逆順("\e[Z"でも動作する)
+bindkey "^[[Z" reverse-menu-complete
+
+# History Config {{{1
+
+#ヒストリーサイズ設定 {{{2
+
+HISTFILE=$HOME/.zsh_history
+HISTSIZE=1000000
+SAVEHIST=1000000
+PATH=${PATH}:~/local/bin
+
+# }}}2
+
+#ヒストリに実行時間も保存する
+setopt EXTENDED_HISTORY
+#直前と同じコマンドはヒストリに追加しない
+setopt HIST_IGNORE_DUPS
+#他のシェルのヒストリをリアルタイムで共有する
+setopt SHARE_HISTORY
+#マッチしたコマンドのヒストリを表示
+autoload history-search-end
+zle -N history-beginning-search-backward-end history-search-end
+zle -N history-beginning-search-forward-end history-search-end
+bindkey "^P" history-beginning-search-backward-end
+bindkey "^N" history-beginning-search-forward-end
+
+# Aliases {{{1
+
+# SuperUser {{{2
+
+alias su='sudo -i'
+alias sd='sudo '
+alias visudo='sudo visudo'
+alias sded='export EDITOR=vim; sudoedit'
+
+# package manager {{{2
+
+alias synaptic='sudo synaptic'
+alias apt-get='sudo apt-get'
+alias aptitude='sudo aptitude'
+alias pcm='sudo pacman'
+alias pcr='packer'
+
+# 便利 {{{2
+
+alias pwr='sudo poweroff'
+alias rbt='sudo reboot'
+case ${OSTYPE} in
+    darwin*)
+        alias ls='gls -a --color=auto'
+        alias ll='gls -alh --color=auto'
+        ;;
+    linux*)
+        alias ls='ls -a --color=auto'
+        alias ll='ls -alh --color=auto'
+        ;;
+esac
+alias mkdir='mkdir -p'
+alias cp='cp -i'
+alias rm='rm -i'
+alias w3m='w3m http://google.com'
+alias gia='git add .'
+alias gic='git commit'
+alias gipo='git push origin master'
+alias gco='gcc -o'
+alias tmux-changekey='tmux set-option -ag prefix C-b'
+alias tmux-revertkey='tmux set-option -ag prefix C-s'
+alias amx="alsamixer"
+alias kitkat='emulator64-x86 -avd android-4.4-x86 -qemu -m 2048 -enable-kvm'
+alias mpg123='mpg123 -vC'
+alias mkcd='source ~/local/bin/mkcd'
+alias less='lv'
+
+# 宗教上の理由 {{{2
+
+alias emacs='vim'
+alias v='vim'
+
+# }}}2
+
+# AutoStart {{{1
+
+screenfetch
+cat $HOME/TODO
+# Tmux {{{2
+if [ -z "$TMUX" -a -z "$STY" ]; then
+    if type tmuxx >/dev/null 2>&1; then
+        tmuxx
+    elif type tmux >/dev/null 2>&1; then
+        if tmux has-session && tmux list-sessions | /usr/bin/grep -qE '.*]$'; then
+            tmux attach && echo "tmux attached session "
+        else
+            tmux new-session && echo "tmux created new session"
+        fi
+    elif type screen >/dev/null 2>&1; then
+        screen -rx || screen -D -RR
+    fi
+fi
+
+# }}}2
+
+# }}}1
